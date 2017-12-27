@@ -535,7 +535,7 @@ width: 100px;
 <p class="red-text">可以学习的编程语言有很多，我们这个编程训练营里面有大量的编程实战实验，包括Html、css、Javascript、jquery、bootstrap等等前端编程实战课程，请大家耐心按阶段不断向前学习和通过一轮一轮的挑战，相信很快您的编程技术会得到很大的提升，为找到一份好的编程工作做好准备。</p>
 ```
 ## HTML 创建项目符号无序列表
-HTML具有用于创建 `unordered lists（无序列表）` ，或带项目符号列表的特殊元素。
+HTML具有用于创建 ~**unordered lists（无序列表）**~ ，或带项目符号列表的特殊元素。
 无序列表以 <ul> 元素开始，并包含一个或多个<li>元素。
 例如：
 ```
@@ -578,6 +578,49 @@ width: 100px;
     <li>eggs</li>
 </ul>
 ```
+  
+## HTML 创建有序列表
+HTML具有用于创建 ~**ordered lists（有序列表）**~, 或数字编号列表的特殊元素。
+有序列表以<ol>元素开始，并包含一个或多个<li>元素。
+例如：
+```
+<ol>    
+  <li>Garfield</li>    
+  <li>Sylvester</li>    
+</ol>
+```
+将创建一个包含"Garfield"和"Sylvester"的数字编号列表。
+创建一个有关 “Top 3 things cats hate:” （猫咪不喜欢三件事情）的有序列表。
+```
+<p>Things cats love:</p>
+<ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+    <li>Garfield</li>
+    <li>Sylvester</li>
+    <li>Quiet</li>
+</ol>
+```
+## HTML 创建文本输入框
+现在我们来创建一个Web表单。
+文本输入框是获取用户输入的一种方便的方法。
+你可以用如下方法创建：
+`<input type="text">`
+注意，input元素是自关闭的。
+任务：在列表下创建一个type（类型）为 text 的input元素。
+`<input type="text">`
+## HTML 为文本输入框设定预定值
+placeholder text（占位符）是用户在 input 框输入任何内容之前放置在 input 框中的预定义文本。
+你可以创建如下所示的占位符：
+<input type="text" placeholder="this is placeholder text">
+将文本 input 框的placeholder的值设置为"cat photo URL"。
+`<input type="text" placeholder="cat photo URL">`
+
+  
 
 
 
