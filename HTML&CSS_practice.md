@@ -680,6 +680,42 @@ action属性的值指定了表单提交到服务器的地址。
 </form>
 ```
 
+## HTML 添加复选框
+`checkboxes（复选按钮）`通常用于可能有多个答案的问题的形式。
+复选按钮是 input 的输入框的一种类型。
+每一个复选按钮都应嵌套在其自己的 label元素中。
+所有关联的复选按钮输入应该具有相同的 name属性。
+以下是一个复选按钮的示例：
+`<label><input type="checkbox" name="personality"> Loving</label>`
+任务：为你的表单添加三个复选按钮，每个复选按钮都应嵌套在其自己的 label 元素，所有复选按钮的name属性必须为personality。
+```
+<form action="/submit-cat-photo">
+<label><input type="radio" name="indoor-outdoor"> Indoor</label>
+<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+<input type="text" placeholder="cat photo URL" required>
+<label><input type="checkbox" name="personality">am</label>
+<label><input type="checkbox" name="personality">you</label>
+<label><input type="checkbox" name="personality">it</label>
+<button type="submit">Submit</button>
+</form>
+```
+
+## HTML 使用checked属性设置复选框和单选框默认被选中
+使用 checked 属性，你可以设置一个单选框和复选框默认被选中。
+为此，只需在 input 元素中添加属性checked 。例如：
+`<input type="radio" name="test-name" checked>`
+设置你的第一个单选框和第一个复选框都为默认选中。
+```
+<form action="/submit-cat-photo">
+<label><input type="radio" name="indoor-outdoor" checked=""> Indoor</label>
+<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+<label><input type="checkbox" name="personality" checked=""> Loving</label>
+<label><input type="checkbox" name="personality"> Lazy</label>
+<label><input type="checkbox" name="personality"> Energetic</label>
+<input type="text" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
+</form>
+```
 
 
 
