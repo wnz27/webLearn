@@ -771,6 +771,24 @@ div 元素是最常用的HTML元素。所以可以利用CSS的继承关系把 di
 </div>
 ```
 
+## HTML 为标签添加ID属性
+除了 class属性之外，每一个 HTML 元素也可以具有 id 属性。
+使用 id 属性有很多好处，一旦你开始使用jQuery，你将了解更多信息。
+id 属性应该是唯一的。虽然浏览器不会强制唯一，但这是被广泛认可的。所以请不要给一个以上的元素相同的 id 属性。
+以下是一个例子，说明如何设置h2 元素的id属性为cat-photo-app。
+`<h2 id="cat-photo-app">`
+任务：设置 form 元素的id属性为 `cat-photo-form`。
+```
+<form id="cat-photo-form" action="/submit-cat-photo">
+<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+<label><input type="checkbox" name="personality" checked> Loving</label>
+<label><input type="checkbox" name="personality"> Lazy</label>
+<label><input type="checkbox" name="personality"> Energetic</label>
+<input type="text" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
+</form>
+```
 
 
 
