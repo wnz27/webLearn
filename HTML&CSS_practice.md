@@ -633,6 +633,18 @@ action属性的值指定了表单提交到服务器的地址。
 </form>
 ```
 
+## HTML 为表单添加提交按钮
+我们在form中添加一个 submit (提交)按钮。点击此按钮，表单中的数据将会被发送到你使用表单 action 属性指定的地址上。
+以下是一个submit按钮的例子：
+`<button type="submit">this button submits the form</button>`
+在你的 form 元素中添加一个提交按钮，并以类型为 submit， "Submit"为按钮文本。
+```
+<form action="/submit-cat-photo">
+<input type="text" placeholder="cat photo URL">
+<button type="submit">Submit</button>
+</form>
+```
+
 
 
 
