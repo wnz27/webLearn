@@ -620,6 +620,14 @@ placeholder text（占位符）是用户在 input 框输入任何内容之前放
 将文本 input 框的placeholder的值设置为"cat photo URL"。
 `<input type="text" placeholder="cat photo URL">`
 
+
+## HTML 添加表单
+你可以使用HTML来构建跟服务器交互的Web表单。你可以通过在form元素上添加一个action属性来执行此操作。
+action属性的值指定了表单提交到服务器的地址。
+例如：
+`<form action="/url-where-you-want-to-submit-form-data"></form>`
+把你的文本输入框嵌套到form元素中。并为此form元素添加`action="/submit-cat-photo"`。
+`<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>`
   
 
 
