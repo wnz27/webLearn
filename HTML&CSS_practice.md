@@ -897,6 +897,43 @@ margin: 20px;
 ```
 
 
+## HTML 使用负值设置页面元素的margin属性
+元素的 margin （外边距）控制元素的 border（边框）和周围元素实际所占空间的距离。
+如果将一个元素的 margin 设置为负值，则元素将会变大。
+尝试将 margin设置为负值，如红方块。
+任务：把 green-box 的 margin 设置为 -15px，以使它将父容器(黄方块)的横向宽度填充。
+```
+<style>
+.injected-text {
+margin-bottom: -25px;
+text-align: center;
+}
+.box {
+border-style: solid;
+border-color: black;
+border-width: 5px;
+text-align: center;
+}
+.yellow-box {
+background-color: yellow;
+padding: 10px;
+}
+.red-box {
+background-color: red;
+padding: 20px;
+margin: -15px;
+}
+.green-box {
+background-color: green;
+padding: 20px;
+margin: -15px;
+}
+</style>
+<div class="box yellow-box">
+<h5 class="box red-box">padding</h5>
+<h5 class="box green-box">padding</h5>
+</div>
+```
 
 
 
