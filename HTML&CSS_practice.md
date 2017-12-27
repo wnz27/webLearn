@@ -646,6 +646,21 @@ action属性的值指定了表单提交到服务器的地址。
 ```
 
 
+## HTML 使用HTML5技术把表单设置为必填
+对于表单，你可以指定某些选项为required（必填项），只有当用户填写了该选项后，用户才能够提交表单。
+例如，如果你想要一个文本输入框设置为必填项，你可以在 input 元素中加上 required 属性，你可以使用： 
+`<input type="text" required>`
+任务：给你的文本输入框添加 required属性，这样用户不填写输入框就无法提交表单。
+然后尝试不填写任何文本就提交表单。了解你的浏览器如何提示你该字段是必填项？
+注意：required属性在Safari浏览器中不起作用，请用其他浏览器来练习学习。
+```
+<form action="/submit-cat-photo">
+<input type="text" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
+</form>
+```
+
+
 
 
 
