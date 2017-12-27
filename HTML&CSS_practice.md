@@ -740,6 +740,36 @@ div 元素是最常用的HTML元素。所以可以利用CSS的继承关系把 di
 </div>
 ```
 
+## HTML 为div元素设置背景颜色
+你可以使用 `background-color`属性来设置一个元素的背景颜色。
+例如，如果你想要设置一个元素的背景颜色为green，你可以将其放在你的 style 元素中：
+```
+.green-background {    
+  background-color: green;    
+}
+```
+创建一个叫 gray-background 的类选择器，设置其 background-color 为 gray，最后应用到你的 div 元素。
+```
+<style>
+.gray-background{
+    background-color: gray
+}
+</style>
+<div class="gray-background">
+<p>Things cats love:</p>
+<ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+<li>flea treatment</li>
+<li>thunder</li>
+<li>other cats</li>
+</ol>
+</div>
+```
 
 
 
