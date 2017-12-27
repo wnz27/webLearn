@@ -627,8 +627,14 @@ action属性的值指定了表单提交到服务器的地址。
 例如：
 `<form action="/url-where-you-want-to-submit-form-data"></form>`
 把你的文本输入框嵌套到form元素中。并为此form元素添加`action="/submit-cat-photo"`。
-`<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>`
-  
+```
+<form action="/submit-cat-photo">
+<input type="text" placeholder="cat photo URL">
+</form>
+```
+
+
+
 
 
 
