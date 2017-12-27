@@ -660,6 +660,25 @@ action属性的值指定了表单提交到服务器的地址。
 </form>
 ```
 
+## HTML 添加单选框
+你可以使用单选按钮来解决你希望用户只给出一个答案的问题。
+单选按钮是 input 输入框的一种类型。
+每个单选按钮都应该嵌套在自己的 label(标签) 元素中。
+所有关联的单选按钮应具有相同的 name 属性。
+下面是一个单选按钮的例子：
+`<label><input type="radio" name="indoor-outdoor"> Indoor</label>`
+在你的表单中添加两个单选按钮，一个叫 indoor，另一个叫 outdoor。
+```
+<form action="/submit-cat-photo">
+<label>
+    <input type="radio" name="indoor-outdoor" placeholder="cat photo URL" required>indoor
+</label>
+<label>
+   <input type="radio" name="indoor-outdoor">outdoor
+</label>
+<button type="submit">Submit</button>
+</form>
+```
 
 
 
