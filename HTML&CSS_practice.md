@@ -790,5 +790,33 @@ id 属性应该是唯一的。虽然浏览器不会强制唯一，但这是被�
 </form>
 ```
 
+## HTML 使用ID属性设置标签样式
+关于id属性的一个很酷的事情是，像类选择器一样，你可以使用CSS来设计样式。
+以下是一个示例，说明如何使用 cat-photo-element 的id属性来获取元素 ，并设置背景颜色为绿色。在你的style 元素中：
+```
+#cat-photo-element {    
+  background-color: green;    
+}
+```
+请注意，在你的 style 元素中，定义类选择器必须添加 . 为前缀，定义ID选择器必须添加 # 为前缀。
+任务：尝试给你的 form，添加一个值为 cat-photo-form 的 id 属性，一个绿色的背景。
+```
+<style>
+#cat-photo-form{
+    background-color: green
+}
+</style>
+<form action="/submit-cat-photo" id="cat-photo-form">
+<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+<label><input type="checkbox" name="personality" checked> Loving</label>
+<label><input type="checkbox" name="personality"> Lazy</label>
+<label><input type="checkbox" name="personality"> Energetic</label>
+<input type="text" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
+</form>
+```
+
+
 
 
