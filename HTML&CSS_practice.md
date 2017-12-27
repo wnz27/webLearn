@@ -717,6 +717,28 @@ action属性的值指定了表单提交到服务器的地址。
 </form>
 ```
 
+## HTML 在div元素中嵌套多个元素
+**div 元素**，也被称作`division(层)元素`，是一个盛装其他元素的通用容器。
+div 元素是最常用的HTML元素。所以可以利用CSS的继承关系把 div 上的CSS传递给它所有子元素。
+你可以使用<div>来标记一个div元素的开始，并使用</div>来标记一个div元素的结束。
+尝试在你的"Things cats love" p元素之前放置div的开始标记，在你的ol结束标记之后放置div的结束标记，这样你的两个列表就都嵌套在div中了。
+把"Things cats love"和"Things cats hate"两个列表都嵌套在同一个div元素中。
+```
+<div>
+<p>Things cats love:</p>
+<ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+<li>flea treatment</li>
+<li>thunder</li>
+<li>other cats</li>
+</ol>
+</div>
+```
 
 
 
