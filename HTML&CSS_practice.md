@@ -857,6 +857,44 @@ padding: 20px;
 </div>
 ```
 
+## HTML 使用margin布局页面标签
+元素的 margin （外边距）控制元素 border （边框）和周围元素实际所占空间的距离。
+在这里，我们可以看到，绿方块和红方块都位于黄方块中。请注意，红方块具有比绿方块更大的 margin（外边距），使其看起来更小。
+当你增大绿方块的 margin 时，它将增加元素边框和元素实际所占空间之间的距离。
+修改绿方块的 margin ，以使它与红方块匹配。
+```
+<style>
+.injected-text {
+margin-bottom: -25px;
+text-align: center;
+}
+.box {
+border-style: solid;
+border-color: black;
+border-width: 5px;
+text-align: center;
+}
+.yellow-box {
+background-color: yellow;
+padding: 10px;
+}
+.red-box {
+background-color: red;
+padding: 20px;
+margin: 20px;
+}
+.green-box {
+background-color: green;
+padding: 20px;
+margin: 20px;
+}
+</style>
+<h5 class="injected-text">margin</h5>
+<div class="box yellow-box">
+<h5 class="box red-box">padding</h5>
+<h5 class="box green-box">padding</h5>
+</div>
+```
 
 
 
