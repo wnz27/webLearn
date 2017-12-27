@@ -817,6 +817,52 @@ id 属性应该是唯一的。虽然浏览器不会强制唯一，但这是被�
 </form>
 ```
 
+## HTML 使用padding布局页面标签
+现在让我们把 Cat Photo App 暂时放一边，并了解学习更多关于的 HTML 样式。
+你可能已经注意到了这一点，所有的 HTML 元素本质上都是一些小矩形块。
+有三个重要的属性控制每个HTML元素的布局：padding(内边距)、margin(外边距)、border(边框)。
+元素的 padding 控制元素与其边框 border 之间的距离。
+在这里，我们可以看到，绿方块和红方块都位于黄方块中。请注意，红方块具有比绿方块具有更大的 padding。
+当你增大绿方块的 padding时, 它将增加元素内容和元素边框之间的距离。
+任务：修改绿方块的 padding ，以使它与红方块匹配。
+```
+<style>
+.injected-text {
+margin-bottom: -25px;
+text-align: center;
+}
+.box {
+border-style: solid;
+border-color: black;
+border-width: 5px;
+text-align: center;
+}
+.yellow-box {
+background-color: yellow;
+padding: 10px;
+}
+.red-box {
+background-color: red;
+padding: 20px;
+}
+.green-box {
+background-color: green;
+padding: 20px;
+}
+</style>
+<h5 class="injected-text">margin</h5>
+<div class="box yellow-box">
+<h5 class="box red-box">padding</h5>
+<h5 class="box green-box">padding</h5>
+</div>
+```
+
+
+
+
+
+
+
 
 
 
