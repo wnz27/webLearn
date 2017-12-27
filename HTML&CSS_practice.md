@@ -1019,6 +1019,44 @@ margin-right: 20px;
 </div>
 ```
 
+## HTML CSS中padding简写
+除了分别指定元素的 padding-top、padding-right、padding-bottom 和 padding-left 属性外，你还可以集中起来指定它们，如下所示：
+`padding: 10px 20px 10px 20px;`
+这四个值以顺时针方式排列：顶部、右侧、底部、左侧，简称：上右下左。
+使用顺时针表示法，给`".green-box" class`在其顶部和左侧具有 40px 的 padding，而底部和右侧具有 20px 的 padding。
+```
+<style>
+.injected-text {
+margin-bottom: -25px;
+text-align: center;
+}
+.box {
+border-style: solid;
+border-color: black;
+border-width: 5px;
+text-align: center;
+}
+.yellow-box {
+background-color: yellow;
+padding: 20px 40px 20px 40px;
+}
+.red-box {
+background-color: red;
+padding: 20px 40px 20px 40px;
+}
+.green-box {
+background-color: green;
+padding: 40px 20px 20px 40px;
+}
+</style>
+<h5 class="injected-text">margin</h5>
+<div class="box yellow-box">
+<h5 class="box red-box">padding</h5>
+<h5 class="box green-box">padding</h5>
+</div>
+```
+
+
 
 
 
