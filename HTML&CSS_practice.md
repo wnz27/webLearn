@@ -977,6 +977,47 @@ padding-right: 20px;
 </div>
 ```
 
+## HTML 为不同方向margin设置不同的值
+有时你将需要自定义一个元素，使它的每一个边具有不同的 margin。
+CSS 允许你使用 margin-top、margin-right、margin-bottom 和 margin-left 属性来控制元素四个方向的margin。
+使你的 green-box class的顶部和左侧具有 40px 的 margin，而底部和右侧则是 20px。
+```
+<style>
+.injected-text {
+margin-bottom: -25px;
+text-align: center;
+}
+.box {
+border-style: solid;
+border-color: black;
+border-width: 5px;
+text-align: center;
+}
+.yellow-box {
+background-color: yellow;
+padding: 10px;
+}
+.red-box {
+background-color: red;
+margin-top: 40px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 40px;
+}
+.green-box {
+background-color: green;
+margin-top: 40px;
+margin-left: 40px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+</style>
+<h5 class="injected-text">margin</h5>
+<div class="box yellow-box">
+<h5 class="box red-box">padding</h5>
+<h5 class="box green-box">padding</h5>
+</div>
+```
 
 
 
