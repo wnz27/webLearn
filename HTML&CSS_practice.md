@@ -1276,6 +1276,18 @@ color: blue;
 6. body声明
 
 
+## CSS 通过使用十六进制代码设置特定的颜色
+你知道还有其他方式来表示CSS中的颜色吗？其中一种方式称为 hexadecimal code（十六进制编码），简写为 hex code。
+我们通常使用 decimals，也就是十进制数字，它对每一位数字使用符号0到9来表示。Hexadecimals （或 hex）是十六进制数字，这意味着它使用十六个不同的符号。像十进制一样，符号 0-9 代表数值零到九，那么 A、B、C、D、E、F 代表数值十到十五。总共，用 0 到 F 可以表示 hexadecimal 中的每一位数字，共为我们提供 16 个可能的数值。
+在 CSS 中，我们可以使用 6 个十六进制数字来表示颜色，每 2 个分别表示红 (R)、绿 (G) 和蓝(B) 成分。例如，#000000 是黑色，同时也是可能的数值中最小的。
+把 body 元素的 background-color 由 black 替换成其 hex code 表示，即#000000。
+```
+<style>
+body {
+background-color: #000000;
+}
+</style>
+```
 
 
 
