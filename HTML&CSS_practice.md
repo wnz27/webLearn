@@ -1240,6 +1240,44 @@ color: blue;
 ```
 
 
+## CSS 通过使用Important覆盖所有其他样式
+好极了！我们刚刚证明了内联样式将覆盖style 中定义的所有 CSS声明。
+可是等等。有最后一个方法来覆盖CSS。这是所有的最强大的方法。但在我们这样做之前，让我们来谈谈你为什么要覆盖CSS。
+在许多情况下，您将使用CSS库。这些可能会意外覆盖您自己的CSS。所以当你绝对需要确定一个元素具有特定的CSS时，可以使用 !important。
+让我们回到之前的 pink-text class 声明。请记住，我们的 pink-text class 被后续的 class 声明、id 声明和内联样式覆盖了。
+我们来给 pink-text 元素的 color 声明加上关键字 !important，以使 100% 确保你的 h1 元素是粉色的。
+举例如下：
+`color: pink !important;`
+```
+<style>
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink !important;
+}
+.blue-text {
+color: blue;
+}
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+```
+## 优先级总结
+1. `！important`
+2. 内联样式inline的style声明
+3. id样式属性
+4. 多个class类，由在<style></style>中的类声明顺序有关，越靠后声明越优先，跟在html元素中的class类中的声明无关。
+5. 单个class属性
+6. body声明
+
+
+
+
 
 
 
