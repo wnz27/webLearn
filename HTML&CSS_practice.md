@@ -1315,6 +1315,17 @@ background-color: #FF0000;
 </style>
 ```
 
+## CSS 十六进制RGB绿色表达方式
+hex code（十六进制代码） 遵循 red-green-blue（红-绿-蓝），或称为 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
+所以要得到绝对的纯绿色，你只需要在第三和第四位使用 F （最大可能的数值），且在其它位使用 0 （最小可能数值）。
+通过对 background-color 应用 hex code 值 #00FF00，把 body 元素的 background-color 设置为绿色。
+```
+<style>
+body {
+background-color: #00FF00;
+}
+</style>
+```
 
 
 
