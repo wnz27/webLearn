@@ -1369,6 +1369,16 @@ background-color: #808080;
 </style>
 ```
 
+## CSS 不同等级的灰度设置
+通过平均混合所有三种颜色，我们还可以得到其他色度等级的灰色，这样我们可以非常接近纯黑色。
+通过对 background-color 应用 hex code 值 `#111111` ，把你的 body 元素的 background-color 设置为深灰色。
+```
+<style>
+body {
+background-color: #111111
+}
+</style>
+```
 
 
 
