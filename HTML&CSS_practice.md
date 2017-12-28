@@ -1112,5 +1112,26 @@ body {
 </style>
 ```
 
+## CSS 继承Body元素样式
+现在我们已经证明，每个HTML页面都有一个body元素，并且它的body元素同样能够应用样式。
+记住，你可以像任何其他HTML元素一样对你的body元素应用样式，并且所有其他元素都将继承你的body元素的样式。
+首先，使用文本 Hello World创建一个 h1 元素。
+然后，让我们通过向body元素的样式声明部分添加 color: green; 使页面上的所有元素的颜色为green。
+最后，通过向 body 元素的样式声明部分添加 font-family: Monospace; 将 body 元素的 font-family（字体）设置为 Monospace。
+```
+<style>
+body {
+background-color: black;
+color: green;
+font-family: Monospace;
+}
+</style>
+<h1>Hello World</h1>
+```
+
+
+
+
+
 
 
