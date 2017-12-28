@@ -1130,6 +1130,27 @@ font-family: Monospace;
 ```
 
 
+## CSS 样式的覆盖
+有时你的 HTML 元素会得到多个相互冲突的样式。
+例如，你的 h1 元素不能同时为绿色和粉色。
+让我们看看当我们创建一个使文本变成粉色的class，然后将它应用到一个元素时会发生什么。
+我们的 class 会override（覆盖） body元素的`color: green;CSS` 属性吗？
+创建一个名为pink-text的 CSS class，它使元素的颜色为粉色。
+设置 h1 元素的 class 为 pink-text。
+```
+<style>
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+.pink-text{
+    color: pink;
+}
+</style>
+<h1 class="pink-text">Hello World!</h1>
+```
+
 
 
 
