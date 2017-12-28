@@ -1290,6 +1290,17 @@ background-color: #000000;
 ```
 
 
+## CSS 十六进制白色表达方式
+数字 0 是十六进制代码中最低的数字，表示完全没有颜色。。
+数字 F 是十六进制代码中最高的数字，表示最大可能的亮度。
+现在，让我们通过 background-color 的 hex code 修改为 #FFFFFF，把 body 元素的background-color 改为白色。
+```
+<style>
+body {
+background-color: #FFFFFF;
+}
+</style>
+```
 
 
 
