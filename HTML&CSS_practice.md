@@ -1428,6 +1428,44 @@ background-color: rgb(255, 255, 255);
 ```
 
 
+## CSS 使用rgb属性设定红色
+和使用 hex code（十六进制编码）一样，你可以通过不同数值的组合来表示 RGB 中不同的颜色。
+这些数值遵循 RGB 顺序模式：第一位表示红色，第二位表示绿色，第三位表示蓝色。
+使用 rgb 将你的 body 元素的 background-color 设置为红色的` RGB 值：rgb(255, 0, 0)。`
+```
+<style>
+body {
+background-color: rgb(255,0, 0);
+}
+</style>
+```
+
+
+## CSS 使用rgb属性设定绿色
+使用 rgb 将你的 body 元素的 background-color 设置为绿色的 `RGB 值：rgb(0, 255, 0)。`
+## CSS 使用rgb属性设定蓝色
+使用 rgb 将你的 body 元素的 background-color 设置为蓝色的 `RGB 值：rgb(0, 0, 255)。`
+## CSS 使用rgb属性设定混合颜色
+就像十六进制代码一样，您可以通过使用不同值的组合来混合RGB中的颜色。
+用我们的style元素中的颜色字替换正确的RGB值。
+```
+Color	        RGB
+Blue	       rgb(0, 0, 255)
+Red	          rgb(255, 0, 0)
+Orchid    	rgb(218, 112, 214)
+Sienna	       rgb(160, 82, 45)
+```
+任务：将 body 元素的背景色修改为橙色的 RGB 值： rgb(255, 165, 0)。
+```
+<style>
+body {
+background-color: rgb(255, 165, 0);
+}
+</style>
+```
+
+
+
 
 
 
