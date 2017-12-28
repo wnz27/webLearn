@@ -1151,6 +1151,31 @@ color: green;
 <h1 class="pink-text">Hello World!</h1>
 ```
 
+## CSS 多个class处理样式覆盖
+我们的 "pink-text" class 覆盖了 body 元素的 CSS 声明！
+我们刚刚证明了我们的 class 会覆盖 body 元素的 CSS。所以下一个合乎情理的问题就是，我们可以怎样来覆盖我们的 pink-text class ？
+再创建一个名为 blue-text 的 CSS class，其颜色设置为蓝色的，确保它在 pink-text class 声明之下。
+除了 pink-text class 之外，你还可以将 blue-text class 应用到你的 h1 元素，让我们看看哪一个会被应用。
+如下例子所示，通过用空格分隔多个 class 属性，可让 HTML 元素应用多个 class 属性：
+`class="class1 class2"`
+注意：在 HTML元素中列出这些 class 的顺序并不重要。
+然而，**<style> 部分中的 class 声明的顺序是重要的，第二个声明将始终优先于第一个声明。因为 .blue-text 是第二个声明，它会覆盖 .pink-text 的属性。**
+```
+<style>
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+.pink-text {
+color: pink;
+}
+.blue-text{
+    color:blue;
+}
+</style>
+<h1 class="pink-text blue-text" >Hello World!</h1>
+```
 
 
 
