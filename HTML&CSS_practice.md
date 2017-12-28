@@ -1094,6 +1094,23 @@ margin: 40px 20px 20px 40px;
 </div>
 ```
 
+## CSS 样式的继承
+现在让我们全新开始，并谈谈CSS 继承。
+每一个 HTML 页面都有一个 body 元素。
+我们可以证明body元素的存在，将其 background-color 设置为黑色。
+我们可以通过将以下代码添加到我们的style元素中：
+```
+body {
+  background-color: black;
+}
+```
+```
+<style>
+body {
+    background-color: black
+}
+</style>
+```
 
 
 
