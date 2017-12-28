@@ -1343,11 +1343,13 @@ background-color: #0000FF;
 数字 0 是十六进制代码中最低的数字，表示完全没有颜色。
 数字 F 是十六进制代码中最高的数字，表示最大可能的亮度。
 用正确的十六进制代码替换 <style> 元素中的颜色词。
+```
 Color	          Hex Code
 Dodger Blue	   #2998E4
 Green         	#00FF00
 Orange        	#FFA500
 Red	              #FF0000
+```  
 ```
 <style>
 body {
