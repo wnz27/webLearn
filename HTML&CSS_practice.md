@@ -1303,7 +1303,17 @@ background-color: #FFFFFF;
 ```
 
 
-
+## CSS 十六进制RGB红色表达方式
+hex code（十六进制代码） 遵循 red-green-blue（红-绿-蓝），或者叫 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
+所以要得到绝对的纯红色，你只需要在第一和第二位使用 F （最大可能的数值），且在第三、第四、第五和第六位使用 0 （最小可能数值）。
+通过对 background-color 应用 hex code 值 #FF0000，把 body 元素的 background-color 设置为红色。
+```
+<style>
+body {
+background-color: #FF0000;
+}
+</style>
+```
 
 
 
