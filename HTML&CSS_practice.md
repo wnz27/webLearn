@@ -1357,6 +1357,22 @@ background-color: #FFA500;
 ```
 
 
+## CSS 灰色度设置
+从这三种纯色（红、绿、蓝），我们能得到 1600 万种其它的颜色。
+我们也可以通过平均混合所有三种颜色得到不同灰度等级的灰色。
+通过对 background-color 应用 hex code 值 `#808080` ，把你的body 元素的 background-color 设置为灰色。
+```
+<style>
+body {
+background-color: #808080;
+}
+</style>
+```
+
+
+
+
+
 
 
 
