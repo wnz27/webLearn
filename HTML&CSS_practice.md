@@ -1293,7 +1293,7 @@ background-color: #000000;
 ## CSS 十六进制白色表达方式
 数字 0 是十六进制代码中最低的数字，表示完全没有颜色。。
 数字 F 是十六进制代码中最高的数字，表示最大可能的亮度。
-现在，让我们通过 background-color 的 hex code 修改为 #FFFFFF，把 body 元素的background-color 改为白色。
+现在，让我们通过 background-color 的 hex code 修改为` #FFFFFF` ，把body 元素的background-color 改为白色。
 ```
 <style>
 body {
@@ -1301,12 +1301,10 @@ background-color: #FFFFFF;
 }
 </style>
 ```
-
-
 ## CSS 十六进制RGB红色表达方式
 hex code（十六进制代码） 遵循 red-green-blue（红-绿-蓝），或者叫 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
 所以要得到绝对的纯红色，你只需要在第一和第二位使用 F （最大可能的数值），且在第三、第四、第五和第六位使用 0 （最小可能数值）。
-通过对 background-color 应用 hex code 值 #FF0000，把 body 元素的 background-color 设置为红色。
+通过对 background-color 应用 hex code 值 `#FF0000`,把 body 元素的 background-color 设置为红色。
 ```
 <style>
 body {
@@ -1314,11 +1312,10 @@ background-color: #FF0000;
 }
 </style>
 ```
-
 ## CSS 十六进制RGB绿色表达方式
 hex code（十六进制代码） 遵循 red-green-blue（红-绿-蓝），或称为 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
 所以要得到绝对的纯绿色，你只需要在第三和第四位使用 F （最大可能的数值），且在其它位使用 0 （最小可能数值）。
-通过对 background-color 应用 hex code 值 #00FF00，把 body 元素的 background-color 设置为绿色。
+通过对 background-color 应用 hex code 值 `#00FF00` ，把body 元素的 background-color 设置为绿色。
 ```
 <style>
 body {
@@ -1326,6 +1323,21 @@ background-color: #00FF00;
 }
 </style>
 ```
+## CSS 十六进制RGB蓝色表达方式
+hex code（十六进制代码）遵循 red-green-blue（红-绿-蓝），或称为 rgb 格式。hex code 中的前两位表示颜色中红色的数量，第三四位代表绿色的数量，第五六位代表蓝色的数量。
+所以要得到绝对的纯蓝色，你只需要在第五和第六位使用 F （最大可能的数值），且在其它位使用 0 （最小可能数值）。
+通过对 background-color 应用 hex code 值 `#0000FF` ,把 body 元素的 background-color 设置为蓝色。
+```
+<style>
+body {
+background-color: #0000FF;
+}
+</style>
+```
+
+
+
+
 
 
 
