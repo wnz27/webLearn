@@ -1213,5 +1213,38 @@ color: blue;
 ```
 
 
+## CSS 通过内联样式覆盖class类的声明
+我们已经证明了，id 声明都会覆盖 class 声明，不管它在你的 style 元素 CSS 的哪个位置进行声明。
+还有其他方法可以覆盖CSS。你还记得内联样式吗？
+使用 in-line style（内联样式）来尝试使我们的 h1 元素变为白色。记住，内联样式如下所示：
+`<h1 style="color: white;">`或者`<h1 style="color: white">`
+在你的 h1 元素上保留 blue-text 和 pink-text class。
+```
+<style>
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+#orange-text {
+color: orange;
+}
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color:white">Hello World!</h1>
+```
+
+
+
+
+
+
+
+
 
 
