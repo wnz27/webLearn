@@ -1178,6 +1178,40 @@ color: pink;
 ```
 
 
+## CSS 通过ID的样式属性覆盖class类的声明
+我们刚刚证明了，浏览器是从上到下读取CSS。这意味着，如果发生冲突，浏览器将使用最后的任何CSS声明。
+我们还有其他覆盖 CSS 的方法。你还记得 id 属性吗？
+我们来覆盖你的 pink-text 和 blue-text class，并使你的 h1 元素变成橙色，给 h1元素一个id，然后对该id进行样式化。
+给你的 h1 元素添加名为 orange-text 的 id 属性。记住，id 样式如下所示：
+`<h1 id="orange-text">`
+在你的 h1 元素中保留 blue-text 和 pink-text class。
+为你的 style 元素中的 orange-text id 创建一个 CSS 声明。如下例子所示：
+```
+#brown-text {    
+  color: brown;    
+}
+```
+注意：你是否将这个css声明在pink-text class之上或之下无关紧要，因为id属性始终是具有更高的优先级。
+```
+<style>
+body {
+background-color: black;
+font-family: Monospace;
+color: green;
+}
+.pink-text {
+color: pink;
+}
+.blue-text {
+color: blue;
+}
+#orange-text{
+    color: orange;
+}
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+```
+
 
 
 
