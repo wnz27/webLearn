@@ -1412,6 +1412,20 @@ background-color:rgb(0,0,0);
 ```
 
 
+## CSS 使用rgb属性设定白色
+代表黑色的 RGB 值如下所示：
+`rgb(0, 0, 0)`
+代表白色的 RGB 值如下所示：
+`rgb(255, 255, 255`)
+使用 RGB，是使用RGB指定每个颜色的亮度，数字介于0到255之间，而不是像使用十六进制代码那样使用六个十六进制数字。
+现在，将你的body元素的 background-color 从黑色的 RGB 值修改为白色的 `rgb 值 rgb(255, 255, 255)。`
+```
+<style>
+body {
+background-color: rgb(255, 255, 255);
+}
+</style>
+```
 
 
 
