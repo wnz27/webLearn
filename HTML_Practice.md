@@ -155,6 +155,51 @@ Add a self-closing `<br />` tag after the question mark ?.
 ```
 
 
+## HTML Structure
+The rest of this lesson will focus on how HTML is structured and some tools developers use to make code easier to interpret.
+HTML documents are organized as a collection of parent-child relationships. When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
+```
+<body>
+  <p>Paragraph</p>
+</body>
+```
+In the example above, the <p> element is nested inside the <body> element. The <p> element is considered a child of the <body> element, the parent.
+Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, great-grandchildren and beyond. Let's consider a more complicated example:
+```
+<body>
+  <div>
+    <h1>Student</h1>
+    <p>Get Started</p>
+  </div>
+</body>
+```
+In this example, the <body> element is the parent of the <div> element. Both the <h1> and <p> elements are children of the <div> element. Because the <h1> and <p> elements are in the same level, they are considered siblings, and are both grandchildren of the <body> element.
+Understanding this hierarchy is important, because child elements can inherit attributes from their parent element.
+Q:
+1. Add the paragraph below as a child of the div element.
+`<p>This paragraph is a child of the div element</p>`
+2. Add the paragraph below as a child of the body element.
+`<p>This paragraph is a child of the body element</p>`
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <div>
+			<p>This paragraph is a child of the div element</p>
+    </div>
+  <p>This paragraph is a child of the body element</p>
+  </body>
+</html>
+```
+display on web:
+```
+Hello World
+This paragraph is a child of the div element
+```
 
 
 
