@@ -62,6 +62,30 @@ The opening and closing head tags (<head></head>) typically appear as the first 
 ```
 
 
+## Page Titles
+What kind of metadata about the web page can the <head> element contain?
+If you navigate to the Codecademy catalog and look at the top of your browser (or at the tab you have open), you'll notice the words `All Courses | Learn to code interactively | Codecademy`, which is the title of the web page.
+The browser displays the title of the page because the title can be specified directly inside of the <head> element, by using a <title> tag.
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coding Journal</title>
+  </head>
+</html>
+```
+If we were to open a file containing the HTML code in the example above, the browser would display the words My Coding Journal in the title bar (or in the tab's title).
+Q:
+Add a title to your web page using the <title> element. The title can be anything you'd like.
+Unfortunately, you won't be able to see the title of your page in the smaller browser to the right. We'll show you what it would look like in the next exercise.
+```
+<html>
+  <head>
+    <title>My title</title>
+  </head>
+</html>
+```
+
 
 
 
