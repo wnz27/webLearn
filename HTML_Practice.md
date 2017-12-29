@@ -163,8 +163,10 @@ HTML documents are organized as a collection of parent-child relationships. When
   <p>Paragraph</p>
 </body>
 ```
-In the example above, the <p> element is nested inside the <body> element. The <p> element is considered a child of the <body> element, the parent.
-Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, great-grandchildren and beyond. Let's consider a more complicated example:
+In the example above, the <p> element is nested inside the <body> element.
+The <p> element is considered a child of the <body> element, the parent.
+Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, 
+great-grandchildren and beyond. Let's consider a more complicated example:
 ```
 <body>
   <div>
@@ -173,8 +175,12 @@ Since there can be multiple levels of nesting, this analogy can be extended to g
   </div>
 </body>
 ```
-In this example, the <body> element is the parent of the <div> element. Both the <h1> and <p> elements are children of the <div> element. Because the <h1> and <p> elements are in the same level, they are considered siblings, and are both grandchildren of the <body> element.
+In this example, the `<body>` element is the parent of the` <div> `element. 
+Both the `<h1> and <p> `elements are children of the `<div> `element. 
+Because the `<h1> and <p>` elements are in the same level, they are considered siblings,
+and are both grandchildren of the <body> element.
 Understanding this hierarchy is important, because child elements can inherit attributes from their parent element.
+	
 Q:
 1. Add the paragraph below as a child of the div element.
 `<p>This paragraph is a child of the div element</p>`
