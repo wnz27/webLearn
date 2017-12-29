@@ -52,7 +52,9 @@ So far you've done two things:
 Declared to the browser that your code is HTML.
 Added the HTML element (<html>) that will contain the rest of your code.
 Let's also give the browser some information about the page. We can do this by adding a <head> element.
-The <head> element contains the metadata for a web page. Metadata is information about the page that isn't displayed directly on the web page. You'll see an example of this in the next exercise.
+The <head> element contains the metadata for a web page. 
+Metadata is information about the page that isn't displayed directly on the web page.
+You'll see an example of this in the next exercise.
 The opening and closing head tags (<head></head>) typically appear as the first item after your first HTML tag.
 ```
 <!DOCTYPE html>
@@ -64,8 +66,10 @@ The opening and closing head tags (<head></head>) typically appear as the first 
 
 ## Page Titles
 What kind of metadata about the web page can the <head> element contain?
-If you navigate to the Codecademy catalog and look at the top of your browser (or at the tab you have open), you'll notice the words `All Courses | Learn to code interactively | Codecademy`, which is the title of the web page.
-The browser displays the title of the page because the title can be specified directly inside of the <head> element, by using a <title> tag.
+If you navigate to the Codecademy catalog and look at the top of your browser (or at the tab you have open), 
+you'll notice the words `All Courses | Learn to code interactively | Codecademy`, which is the title of the web page.
+The browser displays the title of the page because the title can be specified directly inside of the <head> element, 
+by using a <title> tag.
 ```
 <!DOCTYPE html>
 <html>
@@ -74,10 +78,12 @@ The browser displays the title of the page because the title can be specified di
   </head>
 </html>
 ```
-If we were to open a file containing the HTML code in the example above, the browser would display the words My Coding Journal in the title bar (or in the tab's title).
+If we were to open a file containing the HTML code in the example above, 
+the browser would display the words My Coding Journal in the title bar (or in the tab's title).
 Q:
 Add a title to your web page using the <title> element. The title can be anything you'd like.
-Unfortunately, you won't be able to see the title of your page in the smaller browser to the right. We'll show you what it would look like in the next exercise.
+Unfortunately, you won't be able to see the title of your page in the smaller browser to the right. 
+We'll show you what it would look like in the next exercise.
 ```
 <html>
   <head>
@@ -86,6 +92,11 @@ Unfortunately, you won't be able to see the title of your page in the smaller br
 </html>
 ```
 
+
+## Where Does the Title Appear?
+Good work! If the browser within the environment had a title bar,
+you'd see the title of the web page you added where it appears in the image to the right.
+![](https://github.com/wnz27/webLearn/blob/master/Web_Image/Site_Title.png)
 
 
 
