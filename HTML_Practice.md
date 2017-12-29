@@ -100,6 +100,38 @@ you'd see the title of the web page you added where it appears in the image to t
 
 
 
+## The Body
+We've added some HTML, but still haven't seen any results in the web browser to the right. Why is that?
+Before we can add content that a browser will display, we have to add a body to the HTML file. Only content inside the opening and closing body tags can be displayed to the screen.
+Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body.
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I'm Learning To Code!</title>
+  </head>
+  <body>
+  </body>
+</html>
+```
+In the example above, the opening body tag (<body>) is placed directly below the closing head tag (</head>), and the closing body tag (</body>) is placed directly above the closing html tag (</html>).
+Q:
+1. Add a body to your web page using the <body> element.
+2. Add the following code between your opening and closing body tags.
+```
+<p>Shall I compare thee to a summer's day? Thou art more lovely and more temperate</p>
+```
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coding Journey</title>
+  </head>  
+  <body>
+    <p>Shall I compare thee to a summer's day? Thou art more lovely 	and more temperate</p>
+  </body>
+</html>
+```
 
 
 
