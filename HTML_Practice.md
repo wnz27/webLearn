@@ -134,4 +134,30 @@ Q:
 ```
 
 
+## Self-closing Tag
+Thus far we have only seen HTML elements with an opening and a closing tag. A few types of elements, however, require only one tag.
+Self-closing elements contain all the information the browser needs to render the element inside a single tag. Also, because they are single tags, they cannot wrap around raw text or other elements.
+The line break element `<br />` is one example of a self-closing tag. You can use it anywhere within your HTML code. The result is a line break in the browser.
+`<p>line one<br />line two</p>`
+In the example above, the paragraph tags `(<p>)` enclose two phrases, split by a break tag `(<br />)`. Note that single tags, unlike elements with two tags, can't wrap around raw text or other elements.
+The code in the example above will result in an output that looks like the following:
+```
+line one
+line two
+```
+Without the break tag, the browser would render line one and line two on the same line.
+Q:
+Add a self-closing `<br />` tag after the question mark ?.
+```
+ <body>
+    <p>Shall I compare thee to a summer's day?<br/> Thou art more lovely and more temperate</p>
+  </body>
+```
+
+
+
+
+
+
+
 
