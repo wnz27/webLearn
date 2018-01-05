@@ -282,6 +282,40 @@ In this example, the comment is used to denote that the following text makes up 
 In the example above, a valid HTML element (a paragraph element) has been "commented out." This practice is useful when there is code you want to experiment with, or return to, in the future.
 
 
+## Review
+Congratulations on completing the first lesson of HTML & CSS! You are well on your way to becoming a skilled web developer.
+Let's review what you've learned so far:
+1. HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+2. Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+3. Single-closing tags cannot enclose raw text or other elements.
+4. Comments are written in HTML using the following syntax: <!-- comment -->.
+5. HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+6. Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.
+7. Indentation also helps make code easier to read. It makes parent-child relationships visible.
+8. The <!DOCTYPE html> declaration should always be the first line of code in your HTML files.
+9. The <html> element will contain all of your HTML code.
+10. Information about the web page, like the title, belongs within the <head> of the page.
+11. You can add a title to your web page by using the <title> element, inside of the head.
+12. A webpage's title appears in a browser's tab.
+13. Code for visible HTML content is placed inside of the <body> element.
+What you learned in this lesson constitutes the required setup for all HTML files. The rest of the course will teach you more about how to add content using HTML.
+Q:
+1.
+Add a body to the web page.
+2.
+Copy and paste the following line of code within the body of the index.html file:
+`<h1>Hello World!</h1>`
+```
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>My Coding Journey</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+```
 
 
 
