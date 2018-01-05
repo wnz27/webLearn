@@ -244,7 +244,7 @@ Use whitespace to make the code more readable by putting each element on its own
 
 ## Indentation
 The second tool web developers use to make the structure of code easier to read is indentation.
-The [World Wide Web Consortium]([About W3C](https://www.w3.org/Consortium/)), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
+The ([World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
 ```
 <body>
   <p>Paragraph 1</p>
