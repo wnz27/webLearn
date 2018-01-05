@@ -107,6 +107,32 @@ Take a look at the web page in the browser to the right. Do you notice any chang
 
 4. Finally, add the `rel` attribute and set it to the correct value.
 
+## Tag Name
+CSS can select HTML elements by using an element's tag name. 
+A tag name is the word (or character) between HTML angle brackets.
+
+For example, in HTML, the tag for a paragraph element is `<p>`. The CSS syntax for selecting `<p>` elements is:
+
+```
+p {
+}
+```
+
+In the example above, all paragraph elements will be selected using a CSS selector. 
+The selector in the example above is `p`. Note that the CSS selector matches the HTML tag for that element, 
+but without the angle brackets.
+
+In addition, two curly braces follow immediately after the selector (an opening and closing brace, respectively). 
+Any CSS properties will go inside of the curly braces to style the selected elements.
+
+Q:
+
+1. In style.css, add a selector for `<h1>` elements.
+Note: The content of the web page will update because we've already linked index.html and style.css for you.
+
+2. Inside the curly braces of the `h1` selector you just declared, write:
+`color: maroon;`
+This code will make the text color of all `<h1>` tags maroon.
 
 
 
