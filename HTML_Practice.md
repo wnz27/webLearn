@@ -509,3 +509,48 @@ In this part of the course, you'll learn how to use HTML to present tabular data
 </body>
 </html>
 ```
+
+## Table Rows
+In many programs that use tables, the table is already predefined for you, meaning that it contains the rows, columns, and cells that will hold data. In HTML, all of these components must be created.
+The first step in entering data into the table is to add rows using the table row element: `<tr>`.
+```
+<table>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+</table>
+```
+In the example above, two rows have been added to the table.
+## Table Data
+Rows aren't sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: <td>.
+```
+<table>
+  <tr>
+    <td>73</td>
+    <td>81</td>
+  </tr>
+</table>
+```
+In the example above, two data points (73 and 81) were entered in the one row that exists. By adding two data points, we created two cells of data.
+If the table were displayed in the browser, it would show a table with one row and two columns.
+Q:
+In the second row, add three cells of data. The cells should contain the following data, in order:
+```
+Adam's Greenworks
+14
+Package Items
+```
+```
+<table>
+    <tr>
+      <td>Adam's Greenworks</td>
+      <td>14</td>
+      <td>Package Items</td>
+    </tr>
+    <tr></tr>
+  </table>
+```
+
+
+
