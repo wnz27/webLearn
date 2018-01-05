@@ -364,8 +364,8 @@ Your first blog post is complete! Now let’s add the author. Below the opening 
 ```
 src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/profile.jpg".
 ```
-9. Below the `<img>` tag, add an <h3> that says `by Isabelle Rodriguez | 1 day ago`
-10. Let’s make a list of some related blog posts. Beneath the last paragraph, add a <h4> tag that says `Related Content`. Underneath that, create an unordered list.
+9. Below the `<img>` tag, add an `<h3>` that says `by Isabelle Rodriguez | 1 day ago`
+10. Let’s make a list of some related blog posts. Beneath the last paragraph, add a `<h4>` tag that says `Related Content`. Underneath that, create an unordered list.
 
 11. The unordered list should have 4 <li>s. They should be:
 * How To Style Boyfriend Jeans
@@ -381,7 +381,8 @@ At the bottom of your body, add a new <div> and set its id='contact'. Inside the
 ```
 email: isa@fashionblog.com | phone: 917-555-1098 | address: 371 284th St, New York, NY, 10001
 ```
-14. Inside the contact div, Put <strong> opening and closing tags around email, phone, and address
+14. Inside the contact div, Put `<strong>` opening and closing tags around email, phone, and address
+	
 15. Let’s make the profile picture a link to the contact section of your webpage. Find your profile `<img>` tag, and surround it by opening and closing <a> tags. In the <a> tag, set `href='#contact'`.
 
 
