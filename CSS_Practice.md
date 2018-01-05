@@ -238,6 +238,28 @@ and include `article-title` as its `id`.
 You'll see the title change to a cursive font that is not all uppercased.
 
 
+## Classes and IDs
+CSS can select HTML elements by their tag, class, and ID. 
+CSS classes and IDs have different purposes, which can affect which one you use to style HTML elements.
+
+CSS classes are meant to be reused over many elements. 
+By writing CSS classes, you can style elements in a variety of ways by mixing classes on HTML elements.
+
+For instance, imagine a page with two headlines. 
+One headline needs to be bold and blue, and the other needs to be bold and green. 
+Instead of writing separate CSS rules for each headline that repeat each other's code, 
+it's better to write a .bold CSS rule, a `.green` CSS rule, and a `.blue` CSS rule. 
+Then you can give one headline the `bold green` classes, and the other the `bold blue` classes.
+
+While classes are meant to be used many times, an *ID is meant to style only one element*. 
+As we'll learn in the next exercise, IDs override the styles of tags and classes. 
+Since IDs override class and tag styles, they should be used sparingly and only on elements that need to always appear the same.
+
+1. On line 13 of *index.html*, there’s an element that displays the time the article on the page was published.
+Add a class attribute, with a class of `publish-time`.
+
+2. Add a `publish-time` class selector in *style.css* and make its text color `gray` by writing this within the CSS rule’s body:
+`color: gray;`
 
 
 
