@@ -58,7 +58,54 @@ and paste it directly in the new file called style.css.
 Make sure to delete the remaining <style> element (now empty) from index.html.
 
 
+## Linking the CSS File
+Perfect! We successfully separated structure (HTML) from styling (CSS), but the web page still looks bland. Why?
 
+When HTML and CSS code are in separate files, the files must be linked. Otherwise, 
+the HTML file won't be able to locate the CSS code, and the styling will not be applied.
+
+You can use the `<link>` element to link HTML and CSS files together. 
+The `<link>` element must be placed within the head of the HTML file. 
+It is a self-closing tag and requires the following three attributes:
+
+1. href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.
+
+2. type — this attribute describes the type of document that you are linking to (in this case, a CSS file). 
+The value of this attribute should be set to `text/css`.
+
+3. rel — this attribute describes the relationship between the HTML file and the CSS file. 
+Because you are linking to a stylesheet, the value should be set to stylesheet.
+
+When linking an HTML file and a CSS file together, the `<link>` element will look like the following:
+
+```
+<link href="https://www.codecademy.com/stylesheets/style.css" type="text/css" rel="stylesheet">
+```
+
+Note that in the example above the path to the stylesheet is a URL:
+
+`https://www.codecademy.com/stylesheets/style.css`
+
+Specifying the path to the stylesheet using a URL is one way of linking a stylesheet.
+
+If the CSS file is stored in the same [directory](https://en.wikipedia.org/wiki/Directory_(computing)) as your HTML file,
+then you can specify a [relative path](https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths) instead of a URL, like so:
+
+`<link href="./style.css" type="text/css" rel="stylesheet">`
+
+Using a relative path is very common way of linking a stylesheet.
+
+Q:
+
+1. Let's link the stylesheet style.css to the HTML file index.html.
+First, add a `<link>` element within the `<head>` section.
+
+2. Next, add the href attribute to the `<link>` element and set it equal to style.css.
+Take a look at the web page in the browser to the right. Do you notice any changes?
+
+3. Next, add the type attribute and set it to the correct value.
+
+4. Finally, add the `rel` attribute and set it to the correct value.
 
 
 
