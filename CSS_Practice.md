@@ -204,6 +204,42 @@ On line 11, there is a `<h1>` element that has a class of `title`.
 Add the `uppercase` class to this element.
 
 
+## ID Name
+If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), 
+we can add an ID to the element. To add an ID to an element, the element needs an `id` attribute:
+
+`<h1 id="large-title"> ... </h1>`
+
+Then, CSS can select HTML elements by their `id` attribute. To select an `id` element, 
+CSS prepends the `id` name with a hashtag (`#`). For instance, 
+if we wanted to select the HTML element in the example above, it would look like this:
+
+```
+#large-title {
+}
+```
+
+The `id` name is `large-title`, therefore the CSS selector for it is `#large-title`.
+
+Q:
+
+1. In *style.css*, add a CSS selector for an element with an `id` of `article-title`. Inside of its curly braces, write:
+
+```
+font-family: cursive;
+text-transform: capitalize;
+```
+
+These two CSS attributes will make the font cursive and will capitalize the first letter of each word, 
+while lowercasing the rest.
+
+2. Navigate to index.html. On line 11, add an `id` attribute to the `h1` element, 
+and include `article-title` as its `id`. 
+You'll see the title change to a cursive font that is not all uppercased.
+
+
+
+
 
 
 
