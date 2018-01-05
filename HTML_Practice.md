@@ -324,20 +324,20 @@ In this course, you will make a fashion blog using HTML. The blog will describe 
 
 2. Title your website `Everyday with Isa`
 
-3. Directly below the opening <body> tag, add an <h1> that says:
+3. Directly below the opening <body> tag, add an `<h1>` that says:
 `An Insider's Guide to NYFW`
-Below that, add an <h2> that says:
+Below that, add an `<h2>` that says:
 `Getting Tickets & Picking the Shows`
-Below that, add an <h2> that says:
+Below that, add an `<h2>` that says:
 `Dressing for the Shows`
 	
-4. Between the <h1> and first <h2> tag, add a <p> tag that says:
+4. Between the `<h1>` and first `<h2>` tag, add a `<p>` tag that says:
 NYFW can be both amazingly fun & incredibly overwhelming, 
 especially if you've never been. Luckily, 
 I'm here to give you an insider's guide and make your first show a pleasurable experience. 
 By taking my tips and tricks, and following your gut, you'll have an unforgettable experience!
 	
-5. Between the first and second <h2> tags, add a <p> tag that says:
+5. Between the first and second `<h2>` tags, add a `<p>` tag that says:
 If you're lucky or connected you can get an invite, sans the price tag.
 But I wasn't so lucky or connected my first 2 years so I'm here to help you out. 
 First, plan out which shows are most important to you and make a schedule and this is a biggie:SET A BUDGET. 
@@ -346,7 +346,7 @@ Then check out prices, days, and times and prioritize the designers you want to 
 Lastly, purchase your tickets and get excited!
 	
 	
-6. After the last <h2> tag, add a <p> tag that says:
+6. After the last `<h2>` tag, add a `<p>` tag that says:
 Always be true to your own sense of style, if you don't you'll be uncomfortable the whole time and it will show. 
 Remember, NYFW is about expressing yourself and taking in what the designers have chosen to express through their new lines.
 Also it's important to wear shoes you'll be comfortable in all day. Obviously you want to look good,
@@ -366,6 +366,7 @@ src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and
 ```
 9. Below the `<img>` tag, add an <h3> that says `by Isabelle Rodriguez | 1 day ago`
 10. Let’s make a list of some related blog posts. Beneath the last paragraph, add a <h4> tag that says `Related Content`. Underneath that, create an unordered list.
+
 11. The unordered list should have 4 <li>s. They should be:
 * How To Style Boyfriend Jeans
 * When Print Is Too Much
