@@ -166,6 +166,43 @@ You can see the HTML element by navigating to index.html on line 11.
 We'll see in a later exercise why using `.title` overrides the `h1` selector.
 
 
+## Multiple Classes
+We can use CSS to select an HTML element's `class` attribute by name.
+
+So far, we've selected elements using only one class name per element. 
+If every HTML element had a single class, all the style information for each element would require a new class.
+
+Luckily, it's possible to add more than one `class` name to an HTML element's class attribute.
+
+For instance, perhaps there's a heading element that needs to be green and bold. You could write two CSS rules like so:
+
+```
+.green {
+  color: green;
+}
+.bold {
+  font-weight: bold;
+}
+```
+
+Then, you could include both of these classes on one HTML element like this:
+
+`<h1 class="green bold"> ... </h1>`
+
+We can add multiple classes to an HTML element's `class` attribute by separating them with a space. 
+This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
+
+Q:
+
+1. In *style.css*, add a class selector that will make the title of the page stand out more by making all of its letters uppercased. 
+Write a class named `.uppercase`. Then, write this inside of its curly braces:
+
+`text-transform: uppercase;`
+
+2. Now you can add the class to the title element. Navigate to index.html. 
+On line 11, there is a `<h1>` element that has a class of `title`. 
+Add the `uppercase` class to this element.
+
 
 
 
