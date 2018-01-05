@@ -244,7 +244,7 @@ Use whitespace to make the code more readable by putting each element on its own
 
 ## Indentation
 The second tool web developers use to make the structure of code easier to read is indentation.
-The ([World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
+The [World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
 ```
 <body>
   <p>Paragraph 1</p>
@@ -265,6 +265,22 @@ Indent the code in index.html to match the W3C standards.
   </div>  
 </body>
 ```
+
+## Comments
+HTML files also allow you to add comments to your code.
+Comments begin with `<!--` and end with `-->`. Any characters in between will be ignored by your browser.
+`<!-- This is a comment that the browser will not display. -->`
+Including comments in your code is helpful for many reasons:
+They help you (and others) understand your code if you decide to come back and review it at a much later date.
+They allow you to experiment with new code, without having to delete old code.
+```
+<!-- Favorite Films Section -->
+<p>The following is a list of my favorite films:</p>
+```
+In this example, the comment is used to denote that the following text makes up a particular section of the page.
+`<!-- <p> Test Code </p> -->`
+In the example above, a valid HTML element (a paragraph element) has been "commented out." This practice is useful when there is code you want to experiment with, or return to, in the future.
+
 
 
 
