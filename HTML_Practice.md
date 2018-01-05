@@ -207,6 +207,40 @@ Hello World
 This paragraph is a child of the div element
 ```
 
+## Whitespace
+As the code in an HTML file grows, it becomes increasingly difficult to keep track of how elements are related. Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
+Both tools take advantage of the fact that the position of elements in a browser is independent of the amount of whitespace or indentation in the index.html file.
+For example, if you wanted to increase the space between two paragraphs on your web page, you would not be able to accomplish this by adding space between the paragraph elements in the index.html file. The browser ignores whitespace in HTML files when it renders a web page, so it can be used as a tool to make code easier to read and follow.
+What makes the example below difficult to read?
+
+```
+<body><p>Paragraph 1</p><p>Paragraph 2</p></body>
+```
+You have to read the entire line to know what elements are present. Compare the example above to this:
+```
+<body>
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+</body>
+```
+This example is easier to read, because each element is on its own line. While the first example required you to read the entire line of code to identify the elements, this example makes it easy to identify the body tag and two paragraphs.
+A browser renders both examples the same way:
+```
+Paragraph 1
+Paragraph 2
+```
+In the next exercise you will learn how to use indentation to help visualize nested elements.
+Q：
+Use whitespace to make the code more readable by putting each element on its own line.
+```
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Whitespace</h1>
+    <p>Whitespace and indentation make html documents easier to read.       </p>
+  </body>
+</html>
+```
 
 
 
