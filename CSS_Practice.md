@@ -54,6 +54,7 @@ without sacrificing the readability and maintainability of your HTML file.
 Q:
 Take a look at index.html. Cut the CSS code in between the opening and closing <style> tags 
 and paste it directly in the new file called style.css.
+  
 Make sure to delete the remaining <style> element (now empty) from index.html.
 
 
