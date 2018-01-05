@@ -43,11 +43,17 @@ Add the inline styles that you removed from the `<p>` element to the `<style>` e
 
 
 ## The .css file
-Developers avoid mixing code by storing HTML and CSS code in separate files (HTML files contain only HTML code, and CSS files contain only CSS code).
+
+Developers avoid mixing code by storing HTML and CSS code in separate files (HTML files contain only HTML code, 
+and CSS files contain only CSS code).
 You can create a CSS file by using the .css file name extension, like so: style.css
-With a CSS file, you can write all the CSS code needed to style a page without sacrificing the readability and maintainability of your HTML file.
+
+With a CSS file, you can write all the CSS code needed to style a page 
+without sacrificing the readability and maintainability of your HTML file.
+
 Q:
-Take a look at index.html. Cut the CSS code in between the opening and closing <style> tags and paste it directly in the new file called style.css.
+Take a look at index.html. Cut the CSS code in between the opening and closing <style> tags 
+and paste it directly in the new file called style.css.
 Make sure to delete the remaining <style> element (now empty) from index.html.
 
 
