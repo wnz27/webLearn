@@ -262,6 +262,54 @@ Add a class attribute, with a class of `publish-time`.
 `color: gray;`
 
 
+## Specificity
+Specificity is the order by which the browser decides which CSS styles will be displayed. 
+A best practice in CSS is to style elements while using the lowest degree of specificity, 
+so that if an element needs a new style, it is easy to override.
+IDs are the most specific selector in CSS, followed by classes, and finally, tags. 
+For example, consider the following HTML and CSS:
+
+`<h1 class="headline">Breaking News</h1>`
+
+```
+h1 {
+  color: red;
+}
+.headline {
+  color: firebrick;
+}
+```
+
+In the example code above, the color of the heading would be set to `firebrick`, 
+as the class selector is more specific than the tag selector. 
+If an ID attribute (and selector) were added to the code above, 
+the styles within the ID selector's body would override all other styles for the heading. 
+The only way to override an ID is to add another ID with additional styling.
+Over time, as files grow with code, many elements may have IDs, 
+which can make CSS difficult to edit, since a new, more specific style must be created to change the style of an element.
+To make styles easy to edit, it's best to style with a tag selector, if possible. 
+If not, add a class selector. If that is not specific enough, then consider using an ID selector.
+
+Q:
+
+1. In *index.html*, the element on line 11 has an `h1` tag, two classes, and an ID. 
+Since the ID is more specific than both, its styles will be applied to the element. 
+Let's re-write the ID of this element to be less specific by creating classes.
+In *index.html*, delete the `id` attribute on the `h1` element on line 11.
+
+2. Now delete the `#article-title` ID in the CSS.
+Navigate to *style.css* delete the `#article-id` ID selector and its contents.
+
+3. Navigate to *style.css*. Add a class selector named `.cursive`. Inside its body, write:
+`font-family: cursive;`
+
+4. Add another class selector named `.capitalize`. In its curly braces, write:
+`text-transform: capitalize;`
+
+5. Now, navigate back to *index.html*, and replace the `uppercase` class with 
+the `cursive` and `capitalize` classes on the `h1` element on line 11.
+
+
 
 
 
