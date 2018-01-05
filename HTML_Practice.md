@@ -789,6 +789,65 @@ In the example above, there are four rows:
 If you'd like to see how the browser interprets the code above, feel free to copy and paste it into the code editor to understand it a little better.
 
 
+## Table Body
+Over time, a table can grow to contain a lot of data and become very long. When this happens, the table can be sectioned off so that it is easier to manage.
+Long tables can be sectioned off using the table body element: `<tbody>`.
+The `<tbody>` element should contain the all of the table's data, excluding the table headings (more on this in a later exercise).
+```
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+```
+In the example above, all of the table data is contained within a table body element. Note, however, that the headings were also kept in the table's body — we'll change this in the next exercise.
+Q:
+Enclose rows 2, 3, 4, 5, and 6 of the table in a `<tbody>` element.
 
+## Table Head
+In the last exercise, the table's headings were kept inside of the table's body. When a table's body is sectioned off, however, it also makes sense to section off the table's headings using the `<thead>` element.
+```
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+```
+In the example above, the only new element is `<thead>`. The table headings are contained inside of this element. Note that the table's head still requires a row in order to contain the table headings.
+Enclose the first row of the table in a `<thead>` element.
 
 
