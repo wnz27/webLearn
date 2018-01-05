@@ -134,6 +134,39 @@ Note: The content of the web page will update because we've already linked index
 `color: maroon;`
 This code will make the text color of all `<h1>` tags maroon.
 
+## Class Name
+CSS is not limited to selecting elements by tag name. HTML elements can have more than just a tag name; 
+they can also have attributes. One common attribute is the `class` attribute. 
+It's also possible to select an element by its `class` attribute.
+
+For example, consider the following HTML:
+
+`<p class="brand">Sole Shoe Company</p>`
+
+The paragraph element in the example above has a `class` attribute within the `<p>` tag. 
+The `class` attribute is set to `"brand"`. To select this element using CSS, 
+we could use the following CSS selector:
+
+```
+.brand {
+}
+```
+
+To select an HTML element by its class using CSS, a period (`.`) must be prepended to the class's name. 
+In the example above case, the class is `brand`, so the CSS selector for it is `.brand`.
+
+Q:
+
+1. In *style.css*, add a CSS selector for the HTML element with a class of `title`.
+
+2. Inside the curly braces of the `.title` selector you just declared, write:
+`color: teal;`
+This code will change the color of the title to teal, since the title `h1` element has a class of `title` in the HTML. 
+You can see the HTML element by navigating to index.html on line 11.
+We'll see in a later exercise why using `.title` overrides the `h1` selector.
+
+
+
 
 
 
