@@ -851,3 +851,47 @@ In the example above, the only new element is `<thead>`. The table headings are 
 Enclose the first row of the table in a `<thead>` element.
 
 
+## Table Footer
+The bottom part of a long table can also be sectioned off using the <tfoot> element.
+```
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Q1</th>
+      <td>$10M</td>
+      <td>$7.5M</td>
+    </tr>
+    <tr>
+      <th>Q2</th>
+      <td>$12M</td>
+      <td>$5M</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>$22M</td>
+      <td>$12.5M</td>
+    </tr>
+  </tfoot>
+</table>
+```
+In the example above, the footer contains the totals of the data in the table. Footers are often used to contain sums, differences, and other data results.
+Add a table footer at the bottom of the table using the <tfoot> element. Inside of the footer, add the following data:
+```
+<td>Total</td>
+<td>28</td>
+```
+
+
+
+
+
+
