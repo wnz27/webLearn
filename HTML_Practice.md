@@ -317,6 +317,9 @@ Copy and paste the following line of code within the body of the index.html file
 </html>
 ```
 
+# Fashion Blog
+In this course, you will make a fashion blog using HTML. The blog will describe a designer's experience at New York Fashion Week. The blog will contain images, links, lists, and more HTML elements. You can see the completed project ![here](https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/fashion.html)!
+
 
 
 
