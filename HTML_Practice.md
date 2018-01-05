@@ -903,6 +903,201 @@ table, th, td {
 The code in the example above demonstrates just some of the various table aspects you can style using the CSS properties you learned about earlier.
 In style.css, change the font size of all table headings and table data to 18 pixels.
 
+## HTML Tables
+Great job! In this lesson, you learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.
+Let's review what you've learned so far:
+1. The <table> element creates a table.
+2. The `<tr>` element adds rows to a table.
+3. To add data to a row, you can use the <td> element.
+4. Table headings clarify the meaning of data. Headings are added with the` <th>` element.
+5. Table data can span columns using the `colspan` attribute.
+6. Table data can span rows using the `rowspan` attribute.
+7. Tables can be split into three main sections: a head, a body, and a footer.
+8. A table's head is created with the `<thead>` element.
+9. A table's body is created with the `<tbody>` element.
+10. A table's footer is created with the `<tfoot>` element.
+11. All the CSS properties you learned about in this course can be applied to tables and their data.
+Congratulations on completing HTML Tables!
+```
+<!DOCTYPE html>
+<head>
+        <title>Ship To It - Company Packing List</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+      </head>
+      <body>
+      
+        <ul class="navigation">
+          <li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+          <li class="active">Action List</li>
+          <li>Profiles</li>
+          <li>Settings</li>
+        </ul>
+      
+        <div class="search">Search the table</div>
+        
+        <table>
+          <thead>
+          <tr>
+            <th>Company Name</th>
+            <th>Number of Items to Ship</th>
+            <th>Next Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Adam's Greenworks</td>
+            <td>14</td>
+            <td>Package Items</td>
+          </tr>
+          <tr>
+        <td>Davie's Burgers</td>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Baker's Bike Shop</td>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <td>Miss Sally's Southern</td>
+        <td rowspan="2">4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <td>Summit Resort Rentals</td>
+        <td>Ship</td>
+      </tr>
+    </tbody>
+      <tr>
+        <td colspan="2">Strike Fitness</td>
+        <td>Enter Order</td>
+      </tr>
+      <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+          </tr>
+          <tr>
+            <td colspan="2">Out of Town</td>
+            <td>Back in Town</td>
+          </tr>
+          <tr> <!-- Row 1 -->
+            <th></th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+          <tr> <!-- Row 2 -->
+            <th>Morning</th>
+            <td rowspan="2">Work</td>
+            <td rowspan="3">Relax</td>
+          </tr>
+          <tr> <!-- Row 3 -->
+            <th>Afternoon</th>
+          </tr>
+          <tr> <!-- Row 4 -->
+            <th>Evening</th>
+            <td>Dinner</td>
+          </tr>
+          <tfoot>
+              <tr>
+                    <td>Total</td>
+                    <td>28</td>
+              </tr>
+          </tfoot>
+        </table>
+      </body>
 
+```
+Style.css:
+```
+body {
+    background: #EEE;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation */
+  
+  .navigation {
+    box-sizing: border-box;
+    background-color:#88CCF1;
+    overflow: auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    color: black;
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+  }
+  
+  .active {
+    color: hotpink;
+  }
+  
+  /* Table */
+  
+  table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    font-size: 18px;
+  }
+  
+  thead th {
+    background: plum;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: up;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+    border: 1px solid black;
+  }
+  
+  .search {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #AAA;
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    width: 77%;
+  }
+```
 
 
