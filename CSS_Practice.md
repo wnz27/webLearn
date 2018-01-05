@@ -100,12 +100,16 @@ Q:
 1. Let's link the stylesheet style.css to the HTML file index.html.
 First, add a `<link>` element within the `<head>` section.
 
-2. Next, add the href attribute to the `<link>` element and set it equal to style.css.
+2. Next, add the `href` attribute to the `<link>` element and set it equal to `style.css`.
 Take a look at the web page in the browser to the right. Do you notice any changes?
 
-3. Next, add the type attribute and set it to the correct value.
+3. Next, add the `type` attribute and set it to the correct value.
 
 4. Finally, add the `rel` attribute and set it to the correct value.
+
+
+
+
 
 
 
