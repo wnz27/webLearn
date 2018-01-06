@@ -331,7 +331,42 @@ Inside the selector's curly braces, write this:
 `font-family: cursive;`
 This will make the destinations cursive, like the title of the article.
 
+## Nested Elements
+In addition to chaining selectors to select elements, 
+CSS also supports selecting elements that are nested within other HTML elements. 
+For instance, consider the following HTML:
 
+```
+<ul class='main-list'>
+  <li> ... </li>
+  <li> ... </li>
+  <li> ... </li>
+</ul>
+```
+
+The nested `<li>` elements are selected with the following CSS:
+
+```
+.main-list li {
+}
+```
+
+In the example above, `.main-list` selects the `.main-list` element (the unordered list element). 
+The nested `<li>` are selected by adding `li` to the selector, separated by a space, 
+resulting in `.main-list li` as the final selector (note the space in the selector).
+Selecting elements in this way can make our selectors even more specific 
+by making sure they appear in the context we expect.
+
+Q:
+
+1. In *index.html*, each destination has a description paragraph below it. 
+Inside each description, there's a list of attractions. 
+Let’s select the `Top Attractions` element and make it stand out more by making it teal.
+Navigate to *style.css*. Add a selector that targets all of the `h5` elements 
+nested inside elements with class `.description`.
+
+2. Inside the curly braces of the selector, write:
+`color: teal;`
 
 
 
