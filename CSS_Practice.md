@@ -369,7 +369,34 @@ nested inside elements with class `.description`.
 `color: teal;`
 
 
+## Chaining and Specificity
 
+In the last exercise, instead of selecting all `h5` elements, you selected only the `h5` elements nested inside the `.description` elements. 
+This CSS selector was more specific than writing only `h5`. 
+Adding more than one tag, class, or ID to a CSS selector increases the specificity of the CSS selector.
+
+For instance, consider the following CSS:
+
+```
+p {
+  color: blue;
+}
+.main p {
+  color: red;
+}
+```
+
+Both of these CSS rules define what a `p` element should look like. 
+Since `.main p` has a class and a `p` tag as its selector, only the `p` elements inside the `.main` element will appear `red`. 
+This occurs despite there being another more general rule that states `p` elements should be `blue`.
+
+Q:
+In *style.css*, write a selector for `h5` elements. Inside of the curly braces write:
+`color: rebeccapurple;`
+
+Notice that the `h5` elements in the descriptions will not change color. They will continue to be `teal`.
+This is due to there being a more specific selector for `h5` elements that you wrote in the last exercise. 
+Because of the more specific CSS selector (`.description h5`), the more general selector of `h5` will not take hold.
 
 
 
