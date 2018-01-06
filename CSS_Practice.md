@@ -310,6 +310,27 @@ Navigate to *style.css* delete the `#article-id` ID selector and its contents.
 the `cursive` and `capitalize` classes on the `h1` element on line 11.
 
 
+## Chaining Selectors
+When writing CSS rules, it's possible to require an HTML element to have two or more CSS selectors at the same time.
+This is done by combining multiple selectors, which we will refer to as chaining. 
+For instance, if there was a `.special` class for `h1` elements, the CSS would look like:
+
+```
+h1.special {
+}
+```
+
+The code above would select only the `h1` elements that have a class of `special`. 
+If a `p` element also had a class of `special`, the rule in the example would not style the paragraph.
+
+Q：
+
+Let's use chaining to select the destinations to add a style to them.
+In *style.css*, write a CSS selector for `h2` elements with a class of `.destination`. 
+Inside the selector's curly braces, write this:
+`font-family: cursive;`
+This will make the destinations cursive, like the title of the article.
+
 
 
 
