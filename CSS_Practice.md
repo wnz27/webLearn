@@ -432,5 +432,39 @@ Notice that the `h5` elements will now be `rebeccapurple` instead of `teal`.
 That's because `!important` will override any other style no matter what.
 
 
+## Multiple Selectors
+In order to make CSS more concise, it's possible to add CSS styles to multiple CSS selectors all at once. 
+This prevents writing repetitive code.
+
+For instance, the following code has repetitive style attributes:
+
+```
+h1 {
+  font-family: Georgia;
+}
+.menu {
+  font-family: Georgia;
+}
+```
+
+Instead of writing `font-family: Georgia` twice for two selectors, 
+we can separate the selectors by a comma to apply the same style to both, like this:
+
+```
+h1, 
+.menu {
+  font-family: Georgia;
+}
+```
+
+By separating the CSS selectors with a comma, both the `h1` and the `.menu` elements will receive the `font-family: Georgia` styling.
+
+Q:
+
+Write selectors for the `h5` and `p` elements so they both will be styled with the same CSS rule. 
+Apply this style to both elements:
+`font-family: Georgia;`
+Notice that the font across the page will change to `Georgia` without writing the same CSS rule twice.
+
 
 
