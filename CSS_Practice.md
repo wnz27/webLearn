@@ -281,10 +281,10 @@ h1 {
 ```
 
 In the example code above, the color of the heading would be set to `firebrick`, 
-as the class selector is more specific than the tag selector. 
+as *the class selector is more specific than the tag selector.*
 If an ID attribute (and selector) were added to the code above, 
 the styles within the ID selector's body would override all other styles for the heading. 
-The only way to override an ID is to add another ID with additional styling.
+*The only way to override an ID is to add another ID with additional styling.*
 Over time, as files grow with code, many elements may have IDs, 
 which can make CSS difficult to edit, since a new, more specific style must be created to change the style of an element.
 To make styles easy to edit, it's best to style with a tag selector, if possible. 
