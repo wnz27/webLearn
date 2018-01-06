@@ -353,7 +353,7 @@ The nested `<li>` elements are selected with the following CSS:
 
 In the example above, `.main-list` selects the `.main-list` element (the unordered list element). 
 The nested `<li>` are selected by adding `li` to the selector, separated by a space, 
-resulting in `.main-list li` as the final selector (note the space in the selector).
+resulting in `.main-list li` as the final selector *(note the space in the selector).*
 Selecting elements in this way can make our selectors even more specific 
 by making sure they appear in the context we expect.
 
@@ -367,6 +367,12 @@ nested inside elements with class `.description`.
 
 2. Inside the curly braces of the selector, write:
 `color: teal;`
+
+
+
+
+
+
 
 
 
