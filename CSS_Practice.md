@@ -399,7 +399,37 @@ This is due to there being a more specific selector for `h5` elements that you w
 Because of the more specific CSS selector (`.description h5`), the more general selector of `h5` will not take hold.
 
 
+## Important
+There is one thing that is even more specific than IDs: `!important`. 
+`!important` can be applied to specific attributes instead of full rules. 
+It will override any style no matter how specific it is. 
+As a result, it should almost never be used. 
+Once `!important` is used, it is very hard to override.
+The syntax of `!important` in CSS looks like this:
 
+```
+p {
+  color: blue !important;
+}
+.main p {
+  color: red;
+}
+```
+
+Since `!important` is used on the `p` selector’s `color` attribute, all `p` elements will appear `blue`, 
+even though there is a more specific `.main p` selector that sets the `color` attribute to `red`.
+The `!important` flag is only useful when an element appears the same way 100% of the time. 
+Since it's almost impossible to guarantee that this will be true throughout a project and over time, 
+it's best to avoid `!important `altogether. 
+If you ever see `!important` used (or are ever tempted to use it yourself) we strongly recommend reorganizing your CSS.
+Making your CSS more flexible will typically fix the immediate problem and make your code more maintainable in the long run.
+
+Q:
+
+Add `!important` to the `h5` selector's `color` attribute that you defined in the last exercise. 
+`!important` should go after `rebeccapurple`, and before the semicolon.
+Notice that the `h5` elements will now be `rebeccapurple` instead of `teal`. 
+That's because `!important` will override any other style no matter what.
 
 
 
