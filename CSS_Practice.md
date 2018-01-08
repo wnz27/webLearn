@@ -1443,7 +1443,7 @@ p.content-header {
 ```
 
 The code in this example puts 10 pixels of space between the content of the paragraph (the text) and the borders, 
-on all four sides.
+*on all four sides.*
 
 The `padding` property is often used to expand the background color and make content look less cramped.
 
@@ -1476,6 +1476,29 @@ Observe how the red boxes at the bottom of the page changed.
 padding of `h2` elements to 30 pixels.
 
 
+## Padding II
+Another implementation of the `padding` property lets you specify exactly how much padding there should be on each side of the content in a single declaration.
+```
+p.content-header {
+  border: 3px solid grey;
+  padding: 6px 11px 4px 9px;
+}
+```
+In the example above, the four values `6px 11px 4px 9px` correspond to the amount of padding in a clockwise rotation. In order, it specifies the amount of padding on the top (6 pixels), right (11 pixels), bottom (4 pixels), and left (9 pixels) sides of the content.
+
+When using this implementation of the `padding` property, we must specify a padding value for all four sides of the element.
+
+However, if the top and bottom values for padding will equal each other, and the left and right values for padding will also equal each other, you can use the following shortcut:
+
+```
+p.content-header {
+  padding: 5px 10px;
+}
+```
+The first value, `5px`, sets the padding value for the top and bottom sides of the content. The second value, `10px`, sets the padding value for the left and right sides of the content.
+Q:
+1. Change the `h2` paddings so they are set in one line of CSS, using two values.
+2. Using two values for the `padding` property, set the paragraph padding to 10 pixels on the top and bottom and 20 pixels on the left and right.
 
 
 
