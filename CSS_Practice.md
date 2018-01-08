@@ -802,19 +802,31 @@ In *style.css*, set the font weight of paragraph elements to `bold`.
 
 
 ## Text Align
-No matter how much styling is applied to text (typeface, size, weight, etc.), text always appears on the left side of the browser.
-To align text we can use the `text-align` property. The `text-align` property will align text to the element that holds it, otherwise known as its parent.
+No matter how much styling is applied to text (typeface, size, weight, etc.), 
+text always appears on the left side of the browser.
+To align text we can use the `text-align` property. 
+The `text-align` property will align text to the element that holds it, otherwise known as its parent.
+
 ```
 h1 {
   text-align: right;
 }
 ```
+
 The `text-align` property can be set to one of the following three values:
+
 `left` — aligns text to the left hand side of its parent element, which in this case is the browser.
+
 `center `— centers text inside of its parent element.
+
 `right` — aligns text to the right hand side of its parent element.
 Q:
 In *style.css*, set the `text-align` property of the main heading so that it appears in the center.
+
+
+
+
+
 
 
 
