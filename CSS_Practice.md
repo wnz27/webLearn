@@ -762,6 +762,7 @@ You can find a reference of web safe fonts [here](https://www.cssfontstack.com/)
 
 Q：
 1. Inside *style.css*, add the font family of the main heading (`h1`) and subheading (`h2`) to `Georgia`.
+
 2. Next, change the font family of the paragraph to `Helvetica`.
 
 
