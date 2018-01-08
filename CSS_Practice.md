@@ -1240,13 +1240,23 @@ p {
 
 Let's begin!
 Take some time to edit the code to the right. 
+
 See if you can figure out how these following properties impact an element's display:
+
 `height`
+
 `width`
+
 `padding`
+
 `border`
+
 `margin`
+
 `overflow`
+
+
+
 
 
 
