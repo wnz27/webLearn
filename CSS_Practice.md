@@ -1256,7 +1256,23 @@ See if you can figure out how these following properties impact an element's dis
 `overflow`
 
 
+## The Box Model
+The box model comprises the set of properties which define parts of an element that take up space on a web page. 
+The model includes the content area's size (width and height) and the element's padding, border, and margin. 
+The properties include:
 
+1. Width and height — specifies the width and height of the content area.
+
+2. Padding — specifies the amount of space between the content area and the border.
+
+3. Border — specifies the thickness and style of the border surrounding the content area and padding.
+
+4. Margin — specifies the amount of space between the border and the outside edge of the element.
+
+The image to the right is a visual representation of the box model.
+
+Open [this](https://github.com/wnz27/webLearn/blob/master/Web_Image/The%20Box%20Model.png) image in a new tab 
+so you can reference the box model as you move through the lesson.
 
 
 
