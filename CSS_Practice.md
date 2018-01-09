@@ -1634,6 +1634,60 @@ Q:
 
 3. Set the vertical margins of the `#main` element to `0`, and the horizontal margins to `auto`.
 
+## Margin Collapse
+As you have seen, padding is space added inside an element’s border, 
+while margin is space added outside an element's border. 
+One additional difference is that top and bottom margins, also called vertical margins, collapse, 
+while top and bottom padding does not.
+
+Horizontal margins (left and right), like padding, are always displayed and added together. 
+For example, if two divs with ids `#div-one` and` #div-two`, are next to each other, 
+they will be as far apart as the sum of their adjacent margins.
+
+```
+#img-one {
+  margin-right: 20px;
+}
+
+#img-two {
+  margin-left: 20px;
+}
+```
+
+In this example, the space between the `#img-one` and `#img-two` borders is 40 pixels. 
+The right margin of `#img-one` (`20px`) and the left margin of `#img-two` (20px) add to make a total margin of 40 pixels.
+
+Unlike horizontal margins, vertical margins do not add. 
+Instead, the larger of the two vertical margins sets the distance between adjacent elements.
+
+```
+
+#img-one {
+  margin-bottom: 30px;
+}
+
+#img-two {
+  margin-top: 20px;
+}
+```
+
+In this example, the vertical margin between the `#img-one` and` #img-two` elements is 30 pixels. 
+Although the sum of the margins is 50 pixels, the margin collapses so the spacing is only 
+dependent on the `#img-one` bottom margin.
+
+It may be helpful to think of collapsing vertical margins as a short person trying to push a taller person. 
+The tall person has longer arms and can easily push the short person, 
+while the person with short arms cannot reach the person with long arms.
+
+[See here](https://github.com/wnz27/webLearn/blob/master/Web_Image/Vertical%20Margins%20Collapse.png)
+
+Study the graphic display to the right. Elements A and B have 20 pixels of horizontal margin, 
+the sum of each element's margin. 
+
+Elements A and C have 30 pixels of vertical margin — the top margin of element C.
+
+
+
 
 
 
