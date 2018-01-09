@@ -1556,3 +1556,46 @@ Q:
 2. Look at the three red boxes at the bottom of the web page. 
 These elements are anchor elements of class `.share`. 
 Set these `.share a` elements to have a margin of 10 pixels.
+
+
+## Margins II
+What if you don't want equal margins on all four sides of the box?
+
+A similar implementation of the margin property is used to specify exactly 
+how much margin there should be on each side of the box in a single declaration.
+
+```
+p {
+  margin: 6px 10px 5px 12px;
+}
+```
+
+In the example above, the four values `6px 10px 5px 12px `refer to the amount of 
+margin around the box in a clockwise rotation. 
+
+In order, it specifies the amount of margin on the top (6 pixels), right (10 pixels), 
+bottom (5 pixels), and left (12 pixels) sides of the box.
+
+When using this implementation of the margin property, the margin value must be specified for all four sides of the box.
+
+Just like the padding shortcut, when you're certain that the top and bottom values for margin will equal each other, 
+and that the left and right values for margin will also equal each other, you can use the following shortcut:
+
+```
+p {
+  margin: 6px 12px;
+}
+```
+
+The first value, `6px`, sets a margin value for the top and bottom of the box. 
+The second value, `12px`, sets a margin value for the left and right sides of the box.
+
+Q:
+Using two values, set the `h2` top and bottom margins to 30 pixels and the left and right margins to 20 pixels.
+
+
+
+
+
+
+
