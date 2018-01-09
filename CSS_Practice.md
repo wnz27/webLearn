@@ -1514,4 +1514,45 @@ Q:
 and bottom and 20 pixels on the left and right.
 
 
+## Margins I
+So far you've learned about the following components of the box model: content, borders, and padding. 
+The fourth and final component of the box model is margin.
+Margin refers to the space directly outside of the box. 
+The `margin` property is used to specify the size of this space.
 
+```
+p {
+  border: 1px solid aquamarine;
+  margin: 20px;
+}
+```
+
+The code in the example above will place 20 pixels of space on the outside of the paragraph's box on all four sides. 
+This means that other HTML elements on the page cannot come within 20 pixels of the paragraph's border.
+
+If you want to be even more specific about the amount of margin on each side of a box, 
+you can use the following properties:
+
+1. `margin-top`
+2. `margin-right`
+3. `margin-bottom`
+4. `margin-left`
+
+Each property affects the margin on only one side of the box, providing more flexibility in customization.
+
+```
+p {
+  border: 3px solid DarkSlateGrey;
+  margin-right: 15px;
+}
+```
+
+In the example above, only the right side of the paragraph's box will have a margin of 15 pixels. 
+It's common to see margin values used for a specific side of an element.
+
+Q:
+1. Set the top margin of `p` elements to 60 pixels.
+
+2. Look at the three red boxes at the bottom of the web page. 
+These elements are anchor elements of class `.share`. 
+Set these `.share a` elements to have a margin of 10 pixels.
