@@ -1860,7 +1860,9 @@ Q:
 Take a look at the list items in *index.html*. Notice that the list item `Donate` has a class of `donate`.
 
 In *style.css*:
+
 Add a class selector for `donate`
+
 Set the visibility to `hidden`
 
 
