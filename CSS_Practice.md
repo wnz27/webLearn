@@ -1819,6 +1819,53 @@ Note that both properties are both set to `0`.
 When these properties are set to `0`, they do not require a unit of measurement.
 
 Q:
-In *style.css*, reset the default margin and padding values for the body. What happens to the web page in the browser?
+In *style.css*, reset the default margin and padding values for the body. 
+What happens to the web page in the browser?
+
+
+## Visibility
+Elements can be hidden from view with the `visibility` property.
+
+The `visibility` property can be set to one of the following values:
+
+1. `hidden` — hides an element.
+2. `visible` — displays an element.
+
+```
+<ul>
+  <li>Explore</li>
+  <li>Connect</li>
+  <li class="future">Donate</li>
+<ul>
+```
+
+```
+.future {
+  visibility: hidden;
+}
+```
+
+In the example above, the list item with a class of `future` will be hidden from view in the browser.
+
+Keep in mind, however, that users can still view the contents of the list item (e.g., `Donate`) 
+by viewing the source code in their browser. 
+Furthermore, the web page will only hide the contents of the element. 
+It will still leave an empty space where the element is intended to display.
+
+*Note*: What's the difference between `display: none` and `visibility: hidden`? 
+An element with `display: none` will be completely removed from the web page. 
+An element with `visibility: hidden`, however, will not be visible on the web page, but the space reserved for it will.
+
+Q:
+Take a look at the list items in *index.html*. Notice that the list item `Donate` has a class of `donate`.
+
+In *style.css*:
+Add a class selector for `donate`
+Set the visibility to `hidden`
+
+
+
+
+
 
 
