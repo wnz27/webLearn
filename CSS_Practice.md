@@ -1745,6 +1745,53 @@ After you've done this successfully, resize the browser and notice how the heigh
 paragraph's box will no longer expand beyond 300 pixels. 
 You should see your text overflowing. In the next exercise, we will fix that!
 
+## Overflow
+All of the components of the box model comprise an element’s size. 
+For example, an image that has the following dimensions is 364 pixels wide and 244 pixels tall.
+
+* 300 pixels wide
+* 200 pixels tall
+* 10 pixels padding on the left and right
+* 10 pixels padding on the top and bottom
+* 2 pixels border on the left and right
+* 2 pixels border on the top and bottom
+* 20 pixels margin on the left and right
+* 10 pixels margin on the top and bottom
+
+The total dimensions (364px by 244px) are calculated by adding all of the vertical dimensions together 
+and all of the horizontal dimensions together. 
+
+Sometimes, these components result in an element that is larger than the parent's containing area.
+
+How can we ensure that we can view all of an element that is larger than its parent's containing area?
+
+The `overflow` property controls what happens to content that spills, or overflows, outside its box. 
+
+It can be set to one of the following values:
+
+* `hidden` - when set to this value, any content that overflows will be hidden from view.
+* `scroll` - when set to this value, a scrollbar will be added to the element's box so that the rest of the content can be viewed by scrolling.
+* `visible` - when set to this value, the overflow content will be displayed outside of the containing element. Note, this is the default value.
+
+```
+p {
+  overflow: scroll; 
+}
+```
+
+In the example above, if any of the paragraph content overflows (perhaps a user resizes their browser window), 
+a scrollbar will appear so that users can view the rest of the content.
+
+The overflow property is set on a parent element to instruct a web browser how to render child elements. 
+
+For example, if a div’s overflow property is set to `scroll`, all children of 
+this div will display overflowing content with a scroll bar.
+
+Q：
+1. In order to see the impact of `overflow: scroll`, first change the height of the` #main` element to 1000 pixels.
+
+2. Set the overflow of the` #main` element to scroll.
+When you scroll down, a second scroll bar should appear over the paragraph section.
 
 
 
