@@ -1794,5 +1794,31 @@ Q：
 When you scroll down, a second scroll bar should appear over the paragraph section.
 
 
+## Resetting Defaults
+All major web browsers have a default stylesheet they use in the absence of an external stylesheet. 
+These default stylesheets are known as user agent stylesheets. 
+In this case, the term “[user agent](https://en.wikipedia.org/wiki/User_agent)" is a technical term for the browser.
+
+User agent stylesheets often have default CSS rules that set default values for padding and margin. 
+This affects how the browser displays HTML elements, which can make it difficult for a developer 
+to design or style a web page.
+
+Many developers choose to reset these default values so that they can truly work with a clean slate.
+
+```
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+
+The code in the example above resets the default margin and padding values of all HTML elements. 
+It is often the first CSS rule in an external stylesheet.
+
+Note that both properties are both set to `0`. 
+When these properties are set to `0`, they do not require a unit of measurement.
+
+Q:
+In *style.css*, reset the default margin and padding values for the body. What happens to the web page in the browser?
 
 
