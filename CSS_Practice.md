@@ -2460,6 +2460,48 @@ Each of these properties will allow us to position and view elements on a web pa
 They can be used in conjunction with any other styling properties you may know.
 
 
+## Position
+Take a look at the block-level elements in the image below:
+
+![](https://github.com/wnz27/webLearn/blob/master/Web_Image/position_%E7%A4%BA%E4%BE%8B.png)
+
+The boxes in the image above were created with the following CSS:
+
+```
+.boxes {
+  width: 120px;
+  height: 70px;
+}
+```
+
+Notice the block-level elements in the image above take up their own line of space and therefore don't overlap each other. 
+
+In the browser to the right you can see block-level elements also consistently appear on the left side of the browser. 
+
+This is the default position for block-level elements.
+
+The default position of an element can be changed by setting its position property. 
+
+The position property can take one of four values:
+
+1. static - the default value (it does not need to be specified)
+
+2. relative
+
+3. absolute
+
+4. fixed
+
+In the next few exercises, you'll learn about the values in items 2, 3, and 4 above. 
+
+For now, it's important to understand that if you favor the default position of an HTML element, 
+you don't need to set its `position` property.
+
+Q：
+
+In *style.css*, set the position in `.question` to static.
+
+Notice that setting `position` to `static` does nothing. That's because `static` simply refers to the default behavior.
 
 
 
