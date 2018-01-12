@@ -2218,6 +2218,218 @@ The new box model simply makes sure that the dimensions of elements remains
 the same regardless of border width and padding.
 
 
+## Review: Changing the Box Model
+In this lesson, you learned about an important limitation of the default box model: 
+box dimensions are affected by border thickness and padding.
+
+Let's review what you learned:
+
+1. In the default box model, box dimensions are affected by border thickness and padding.
+
+2. The `box-sizing` property controls the box model used by the browser.
+
+3. The default value of the `box-sizing` property is `content-box`.
+
+4. The value for the new box model is `border-box`.
+
+5. The `border-box` model is not affected by border thickness or padding.
+
+Instructions
+
+Take some time to experiment with your new knowledge of the box model in style.css. 
+
+Eg.
+
+Index.html:(you should change the file of css name)
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Let's Test Your Memory!</title>
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="box_m_prac.css">
+</head>
+<body>
+  
+  <h2>Classic Memory Game</h2>
+  <h1>Let's Test Your Memory!</h1>
+  <p>Click on a tile below to reveal a symbol. Click on another tile to try and reveal two of the same symbols. The game is over when all the cards have been matched.</p>
+
+  <div class="actions">
+    <a href="#">Reset Game</a>
+    <a href="#">Invite a Friend!</a>
+    <a href="#">Save This Game</a>
+  </div>
+
+  <div id="gameboard">
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+
+    <div class="card">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_star.png">
+    </div>
+  </div>
+
+</body>
+</html> 
+```
+
+Style.css:
+
+```
+body {
+    background-color: #FFF;
+    margin: 0px;
+    padding: 50px 60px;
+  }
+  
+  h1 {
+    color: #004E89;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #AAA;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    color: #333;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .actions a {
+    background-color: #9DD1F1;
+    border-radius: 3px;
+    color: #004E89;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  #gameboard {
+    position: relative;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .card {
+    
+    border: 2px solid #9DD1F1;
+    display: inline-block;
+    height: 200px;
+    margin-top: 4px;
+    padding: 30px auto;
+    text-align: center;
+    width: 215px;
+  }
+  
+  .card:hover {
+    background-color: #004E89;
+    border-color: #004E89;
+  }
+  
+  .card img {
+    padding-top: 40px;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+```
+
+
 
 
 
