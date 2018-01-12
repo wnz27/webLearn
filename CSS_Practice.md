@@ -2131,6 +2131,25 @@ Over time, this can also make all of a web page's content difficult to position 
 In this brief lesson, you'll learn how to use a different technique that avoids this problem altogether.
 
 
+## Box Model: Content-Box
+
+Many properties in CSS have a default value and don't have to be explicitly set in the stylesheet.
+
+For example, the default `font-weight` of text is `normal`, 
+but this property-value pair is not typically specified in a stylesheet.
+
+The same can be said about the box model that browsers assume. 
+
+In CSS, the `box-sizing` property controls the type of box model the browser should use when interpreting a web page.
+
+The default value of this property is `content-box`. 
+This is the same box model that is affected by border thickness and padding.
+
+Instructions
+
+Study the diagram to the right. It illustrates the default box model used by the browser, `content-box`. 
+![](https://github.com/wnz27/webLearn/blob/master/Web_Image/actual%20rendered%20width.png)
+
 
 
 
