@@ -2504,5 +2504,58 @@ In *style.css*, set the position in `.question` to static.
 Notice that setting `position` to `static` does nothing. That's because `static` simply refers to the default behavior.
 
 
+## Position: Relative
 
+One way to modify the default `position` of an element is by setting its position property to `relative`.
+
+This value allows you to position an element relative to its default static position on the web page.
+
+```
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: relative;
+}
+```
+
+Although the code in the example above instructs the browser to expect a relative positioning of the div, 
+it does not specify where the div should be positioned on the page.
+
+```
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+```
+
+In the example above, the div has been positioned using two of the four offset properties. 
+
+The valid offset properties are:
+
+1. `top` - moves the element down.
+
+2. `bottom` - moves the element up.
+
+3. `left` - moves the element right.
+
+4. `righ`t - moves the element left.
+
+In the example above, the div will be moved down 20 pixels and to the right 50 pixels from its default static position. 
+
+The image below displays the new position of the box. 
+
+The dotted line represents where the statically positioned (default) box was positioned.
+
+![](https://github.com/wnz27/webLearn/blob/master/Web_Image/PositionRelative.png)
+
+Units for offset properties can be specified in pixels,  ems, or percentages. 
+
+Note that offset properties will not work if the position of the element is not set to `relative`.
+
+Q:
+
+1. In *style.css*, set the position in .question to relative.
+
+2. Next, offset `.question` 40 pixels from the top (again, in style.css).
 
