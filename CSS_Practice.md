@@ -2559,3 +2559,42 @@ Q:
 
 2. Next, offset `.question` 40 pixels from the top (again, in style.css).
 
+
+## Position: Absolute
+Another way of modifying the position of an element is by setting its position to `absolute`.
+
+When an element's position is set to `absolute` all other elements on the page will 
+ignore the element and act like it is not present on the page.
+
+```
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+```
+
+In the example above, the `.box-bottom` div will be moved down and right from the top left corner of the view. 
+
+If offset properties weren't specified, the top box would be entirely covered by the bottom box. 
+
+Take a look at the gif below:
+
+![](https://github.com/wnz27/webLearn/blob/master/Web_Image/absolute.gif)
+
+The bottom box in this image (colored blue) is displaced from the top left corner of its container. 
+
+It is 20 pixels lower and 50 pixels to the right of the top box.
+
+In the next exercise we will compare the scrolling of `absolute` elements with `fixed` elements.
+
+Q:
+
+1. In *style.css*, set the position inside of the `header` selector to `absolute`. 
+Scroll up and down the web page. What do you notice?
+
+2. When you changed the position to absolute, you may have noticed that the header shrunk horizontally. 
+We'll learn why in a later exercise. For now, set the `width` property of the header to `100%`.
+
+
