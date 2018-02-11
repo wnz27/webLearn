@@ -5,6 +5,7 @@
 # Selector
 
 ## Inline Styles
+
 Although CSS is a different language than HTML, it's possible to write CSS code directly 
 within HTML code using inline styles.
 
