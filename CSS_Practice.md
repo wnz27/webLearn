@@ -2562,6 +2562,7 @@ Q:
 
 
 ## Position: Absolute
+
 Another way of modifying the position of an element is by setting its position to `absolute`.
 
 When an element's position is set to `absolute` all other elements on the page will 
