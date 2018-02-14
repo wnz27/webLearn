@@ -113,6 +113,7 @@ Make sure to delete the remaining <style> element (now empty) from index.html.
 
 
 ## Linking the CSS File
+
 Perfect! We successfully separated structure (HTML) from styling (CSS), but the web page still looks bland. Why?
 
 When HTML and CSS code are in separate files, the files must be linked. Otherwise, 
