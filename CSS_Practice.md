@@ -192,6 +192,7 @@ Note: The content of the web page will update because we've already linked index
 This code will make the text color of all `<h1>` tags maroon.
 
 ## Class Name
+
 CSS is not limited to selecting elements by tag name. HTML elements can have more than just a tag name; 
 they can also have attributes. One common attribute is the `class` attribute. 
 It's also possible to select an element by its `class` attribute.
