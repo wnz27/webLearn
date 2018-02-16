@@ -42,6 +42,7 @@ In index.html, use inline styles to set the font-family of the first paragraph t
 
 
 ## The <style> Tag
+  
 Inline styles are a fast way of styling HTML, but they also have limitations. 
   
 If you wanted to style, for example, multiple `<h1>` elements, 
