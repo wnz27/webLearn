@@ -166,6 +166,7 @@ Take a look at the web page in the browser to the right. Do you notice any chang
 4. Finally, add the `rel` attribute and set it to the correct value.
 
 ## Tag Name
+
 CSS can select HTML elements by using an element's tag name. 
 A tag name is the word (or character) between HTML angle brackets.
 
