@@ -265,6 +265,7 @@ Add the `uppercase` class to this element.
 
 
 ## ID Name
+
 If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), 
 we can add an ID to the element. To add an ID to an element, the element needs an `id` attribute:
 
