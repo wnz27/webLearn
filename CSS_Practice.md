@@ -227,6 +227,7 @@ We'll see in a later exercise why using `.title` overrides the `h1` selector.
 
 
 ## Multiple Classes
+
 We can use CSS to select an HTML element's `class` attribute by name.
 
 So far, we've selected elements using only one class name per element. 
