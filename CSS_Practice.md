@@ -646,6 +646,7 @@ h5 {
 # Visual Rules
 
 ## Introduction To Visual Rules
+
 In this lesson, you'll learn the basic structure and syntax of CSS so that you can start styling web page elements.
 Explore the code to the below. Think about how it relates to the web page on the right side of the browser.
 Index.html:
