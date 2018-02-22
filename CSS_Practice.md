@@ -301,6 +301,7 @@ You'll see the title change to a cursive font that is not all uppercased.
 
 
 ## Classes and IDs
+
 CSS can select HTML elements by their tag, class, and ID. 
 CSS classes and IDs have different purposes, which can affect which one you use to style HTML elements.
 
