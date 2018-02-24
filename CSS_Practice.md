@@ -326,6 +326,7 @@ Add a class attribute, with a class of `publish-time`.
 
 
 ## Specificity
+
 Specificity is the order by which the browser decides which CSS styles will be displayed. 
 A best practice in CSS is to style elements while using the lowest degree of specificity, 
 so that if an element needs a new style, it is easy to override.
