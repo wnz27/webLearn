@@ -1,6 +1,7 @@
 # HTML
 
 ## What is HTML?
+
 HTML is the language used to create the websites you visit everyday. It provides a logical way to structure content for websites.
 Let's analyze the acronym "HTML," as it contains a lot of useful information. HTML stands for HyperText Markup Language.
 A markup language is a computer language that defines the structure and presentation of raw text. Markup languages work by surrounding raw text with information the computer can interpret, "marking it up" to be processed.
@@ -12,6 +13,7 @@ In the code editor to the right, type your name in between `<h1> and </h1>`, the
 
 
 ## !DOCTYPE
+
 Whether you realize it or not, when you read text, your brain must first identify the text's language. If you can understand that language, then your brain immediately begins to interpret the text. This same process happens whether you're reading a street sign, a book, or a name tag.
 Web browsers work in a similar way. They must know what language a document is written in before they can process its contents.
 You can let web browsers know that you are using HTML by starting your document with a document type declaration.
@@ -22,6 +24,7 @@ In the future, however, a new standard will override HTML5. Future browsers may 
 
 
 ## Preparing for HTML
+
 Great! Browsers that read your code will know to expect HTML when they attempt to read your file.
 The <!DOCTYPE html> declaration is only the beginning, however. It indicates to the browser that you will use HTML in the document, but it doesn't actually add any HTML structure or content.
 To create HTML structure and content, we must add opening and closing <html> tags, like so:
@@ -34,6 +37,7 @@ Anything between the opening <html> and closing </html> tags will be interpreted
 
 
 ## HTML Anatomy
+
 Before we move forward, it's important that we discuss how HTML elements are structured. The diagram to the right displays an HTML paragraph element.
 In this example, the paragraph element is made up of one opening tag` (<p>)`, the “Hello world!” text, and a closing tag `(</p>)`:
 Let's quickly review each part of the tag pictured:
@@ -48,6 +52,7 @@ Most elements require both opening and closing tags, but some call for a single 
 
 
 ## The Head
+
 So far you've done two things:
 Declared to the browser that your code is HTML.
 Added the HTML element (<html>) that will contain the rest of your code.
@@ -65,6 +70,7 @@ The opening and closing head tags (<head></head>) typically appear as the first 
 
 
 ## Page Titles
+
 What kind of metadata about the web page can the <head> element contain?
 If you navigate to the Codecademy catalog and look at the top of your browser (or at the tab you have open), 
 you'll notice the words `All Courses | Learn to code interactively | Codecademy`, which is the title of the web page.
@@ -94,6 +100,7 @@ We'll show you what it would look like in the next exercise.
 
 
 ## Where Does the Title Appear?
+
 Good work! If the browser within the environment had a title bar,
 you'd see the title of the web page you added where it appears in the image to the right.
 ![](https://github.com/wnz27/webLearn/blob/master/Web_Image/Site_Title.png)
@@ -101,6 +108,7 @@ you'd see the title of the web page you added where it appears in the image to t
 
 
 ## The Body
+
 We've added some HTML, but still haven't seen any results in the web browser to the right. Why is that?
 Before we can add content that a browser will display, we have to add a body to the HTML file. Only content inside the opening and closing body tags can be displayed to the screen.
 Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body.
@@ -135,6 +143,7 @@ Q:
 
 
 ## Self-closing Tag
+
 Thus far we have only seen HTML elements with an opening and a closing tag. A few types of elements, however, require only one tag.
 Self-closing elements contain all the information the browser needs to render the element inside a single tag. Also, because they are single tags, they cannot wrap around raw text or other elements.
 The line break element `<br />` is one example of a self-closing tag. You can use it anywhere within your HTML code. The result is a line break in the browser.
@@ -156,6 +165,7 @@ Add a self-closing `<br />` tag after the question mark ?.
 
 
 ## HTML Structure
+
 The rest of this lesson will focus on how HTML is structured and some tools developers use to make code easier to interpret.
 HTML documents are organized as a collection of parent-child relationships. When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
 ```
@@ -208,6 +218,7 @@ This paragraph is a child of the div element
 ```
 
 ## Whitespace
+
 As the code in an HTML file grows, it becomes increasingly difficult to keep track of how elements are related. Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
 Both tools take advantage of the fact that the position of elements in a browser is independent of the amount of whitespace or indentation in the index.html file.
 For example, if you wanted to increase the space between two paragraphs on your web page, you would not be able to accomplish this by adding space between the paragraph elements in the index.html file. The browser ignores whitespace in HTML files when it renders a web page, so it can be used as a tool to make code easier to read and follow.
@@ -243,6 +254,7 @@ Use whitespace to make the code more readable by putting each element on its own
 ```
 
 ## Indentation
+
 The second tool web developers use to make the structure of code easier to read is indentation.
 The [World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
 ```
@@ -267,6 +279,7 @@ Indent the code in index.html to match the W3C standards.
 ```
 
 ## Comments
+
 HTML files also allow you to add comments to your code.
 Comments begin with `<!--` and end with `-->`. Any characters in between will be ignored by your browser.
 `<!-- This is a comment that the browser will not display. -->`
