@@ -3,7 +3,9 @@
 ## What is HTML?
 
 HTML is the language used to create the websites you visit everyday. It provides a logical way to structure content for websites.
+
 Let's analyze the acronym "HTML," as it contains a lot of useful information. HTML stands for HyperText Markup Language.
+
 A markup language is a computer language that defines the structure and presentation of raw text. 
 Markup languages work by surrounding raw text with information the computer can interpret, "marking it up" to be processed.
 In HTML, the computer can interpret raw text that is wrapped in HTML elements. 
