@@ -28,7 +28,9 @@ In the code editor to the right, type your name in between `<h1> and </h1>`, the
 
 Whether you realize it or not, when you read text, your brain must first identify the text's language. 
 
-If you can understand that language, then your brain immediately begins to interpret the text. This same process happens whether you're reading a street sign, a book, or a name tag.
+If you can understand that language, then your brain immediately begins to interpret the text. 
+
+This same process happens whether you're reading a street sign, a book, or a name tag.
 Web browsers work in a similar way. They must know what language a document is written in before they can process its contents.
 You can let web browsers know that you are using HTML by starting your document with a document type declaration.
 The declaration looks like this: <!DOCTYPE html>. This declaration is an instruction. It tells the browser what type of document to expect, along with what version of HTML is being used in the document.
