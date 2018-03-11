@@ -49,7 +49,9 @@ For now, the browser will correctly assume that the html in <!DOCTYPE html> is r
 
 In the future, however, a new standard will override HTML5. 
 
-Future browsers may assume you're using a different, newer standard, in which case your document will be interpreted incorrectly. To make sure your document is forever interpreted correctly, always include <!DOCTYPE html> at the very beginning of your HTML documents.
+Future browsers may assume you're using a different, newer standard, in which case your document will be interpreted incorrectly. 
+
+To make sure your document is forever interpreted correctly, always include <!DOCTYPE html> at the very beginning of your HTML documents.
 `<!DOCTYPE html>`
 
 
