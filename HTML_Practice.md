@@ -33,6 +33,7 @@ If you can understand that language, then your brain immediately begins to inter
 This same process happens whether you're reading a street sign, a book, or a name tag.
 
 Web browsers work in a similar way. 
+
 They must know what language a document is written in before they can process its contents.
 
 You can let web browsers know that you are using HTML by starting your document with a document type declaration.
