@@ -63,6 +63,7 @@ Great! Browsers that read your code will know to expect HTML when they attempt t
 The <!DOCTYPE html> declaration is only the beginning, however. 
 
 It indicates to the browser that you will use HTML in the document, but it doesn't actually add any HTML structure or content.
+
 To create HTML structure and content, we must add opening and closing <html> tags, like so:
 ```
 <!DOCTYPE html>
