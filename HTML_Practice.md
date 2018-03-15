@@ -69,7 +69,9 @@ To create HTML structure and content, we must add opening and closing <html> tag
 <html>
 </html>
 ```
-Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. Without these tags, it's possible that browsers could incorrectly interpret your HTML code.
+Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. 
+
+Without these tags, it's possible that browsers could incorrectly interpret your HTML code.
 
 
 ## HTML Anatomy
