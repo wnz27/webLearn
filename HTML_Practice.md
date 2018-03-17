@@ -77,7 +77,10 @@ Without these tags, it's possible that browsers could incorrectly interpret your
 
 ## HTML Anatomy
 
-Before we move forward, it's important that we discuss how HTML elements are structured. The diagram to the right displays an HTML paragraph element.
+Before we move forward, it's important that we discuss how HTML elements are structured. 
+
+The diagram to the right displays an HTML paragraph element.
+
 In this example, the paragraph element is made up of one opening tag` (<p>)`, the “Hello world!” text, and a closing tag `(</p>)`:
 Let's quickly review each part of the tag pictured:
 1. HTML Tag - The element name, surrounded by an opening (<) and closing (>) angle bracket.
