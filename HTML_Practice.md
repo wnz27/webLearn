@@ -82,7 +82,9 @@ Before we move forward, it's important that we discuss how HTML elements are str
 The diagram to the right displays an HTML paragraph element.
 
 In this example, the paragraph element is made up of one opening tag` (<p>)`, the “Hello world!” text, and a closing tag `(</p>)`:
+
 Let's quickly review each part of the tag pictured:
+
 1. HTML Tag - The element name, surrounded by an opening (<) and closing (>) angle bracket.
 2. HTML element (or simply, element) - a unit of content in an HTML document formed by HTML tags and the text or media it contains.
 3. Opening tag - the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.
