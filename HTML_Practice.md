@@ -95,7 +95,9 @@ Let's quickly review each part of the tag pictured:
 
 5. Closing tag - the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.
 
-Most elements require both opening and closing tags, but some call for a single self-closing tag. We'll encounter examples of both element types in the next few exercises.
+Most elements require both opening and closing tags, but some call for a single self-closing tag. 
+
+We'll encounter examples of both element types in the next few exercises.
 ![](https://github.com/wnz27/webLearn/blob/master/Web_Image/HTML_element.png)
 
 
