@@ -104,6 +104,7 @@ We'll encounter examples of both element types in the next few exercises.
 ## The Head
 
 So far you've done two things:
+
 Declared to the browser that your code is HTML.
 Added the HTML element (<html>) that will contain the rest of your code.
 Let's also give the browser some information about the page. We can do this by adding a <head> element.
