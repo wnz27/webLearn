@@ -114,6 +114,7 @@ Let's also give the browser some information about the page. We can do this by a
 The <head> element contains the metadata for a web page. 
 	
 Metadata is information about the page that isn't displayed directly on the web page.
+
 You'll see an example of this in the next exercise.
 The opening and closing head tags (<head></head>) typically appear as the first item after your first HTML tag.
 ```
