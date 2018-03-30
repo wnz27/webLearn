@@ -131,6 +131,7 @@ The opening and closing head tags (<head></head>) typically appear as the first 
 What kind of metadata about the web page can the <head> element contain?
 	
 If you navigate to the Codecademy catalog and look at the top of your browser (or at the tab you have open), 
+
 you'll notice the words `All Courses | Learn to code interactively | Codecademy`, which is the title of the web page.
 The browser displays the title of the page because the title can be specified directly inside of the <head> element, 
 by using a <title> tag.
