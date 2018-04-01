@@ -145,7 +145,9 @@ by using a <title> tag.
 </html>
 ```
 If we were to open a file containing the HTML code in the example above, 
+	
 the browser would display the words My Coding Journal in the title bar (or in the tab's title).
+
 Q:
 Add a title to your web page using the <title> element. The title can be anything you'd like.
 Unfortunately, you won't be able to see the title of your page in the smaller browser to the right. 
