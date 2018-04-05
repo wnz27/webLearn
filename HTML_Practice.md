@@ -177,6 +177,7 @@ We've added some HTML, but still haven't seen any results in the web browser to 
 Before we can add content that a browser will display, we have to add a body to the HTML file.
 
 Only content inside the opening and closing body tags can be displayed to the screen.
+
 Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body.
 ```
 <!DOCTYPE html>
