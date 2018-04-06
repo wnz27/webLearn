@@ -4,7 +4,7 @@
 
 HTML is the language used to create the websites you visit everyday. It provides a logical way to structure content for websites.
 
-Let's analyze the acronym "HTML," as it contains a lot of useful information. HTML stands for HyperText Markup Language.
+Let's analyze the acronym "HTML," as it contains a lot of useful information.HTML stands for HyperText Markup Language.
 
 A markup language is a computer language that defines the structure and presentation of raw text. 
 
