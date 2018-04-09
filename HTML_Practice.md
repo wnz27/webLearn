@@ -192,6 +192,7 @@ Once the file has a body, many different types of content – including text, im
 In the example above, the opening body tag (<body>) is placed directly below the closing head tag (</head>), 
 
 and the closing body tag (</body>) is placed directly above the closing html tag (</html>).
+
 Q:
 1. Add a body to your web page using the <body> element.
 2. Add the following code between your opening and closing body tags.
