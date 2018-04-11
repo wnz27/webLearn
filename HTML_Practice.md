@@ -196,6 +196,7 @@ and the closing body tag (</body>) is placed directly above the closing html tag
 Q:
 
 1. Add a body to your web page using the <body> element.
+	
 2. Add the following code between your opening and closing body tags.
 ```
 <p>Shall I compare thee to a summer's day? Thou art more lovely and more temperate</p>
