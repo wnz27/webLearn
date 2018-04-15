@@ -229,7 +229,9 @@ The line break element `<br />` is one example of a self-closing tag.
 You can use it anywhere within your HTML code. The result is a line break in the browser.
 `<p>line one<br />line two</p>`
 
-In the example above, the paragraph tags `(<p>)` enclose two phrases, split by a break tag `(<br />)`. Note that single tags, unlike elements with two tags, can't wrap around raw text or other elements.
+In the example above, the paragraph tags `(<p>)` enclose two phrases, split by a break tag `(<br />)`. 
+
+Note that single tags, unlike elements with two tags, can't wrap around raw text or other elements.
 The code in the example above will result in an output that looks like the following:
 ```
 line one
