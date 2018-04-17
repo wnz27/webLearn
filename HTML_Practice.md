@@ -251,7 +251,10 @@ Add a self-closing `<br />` tag after the question mark ?.
 ## HTML Structure
 
 The rest of this lesson will focus on how HTML is structured and some tools developers use to make code easier to interpret.
-HTML documents are organized as a collection of parent-child relationships. When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
+
+HTML documents are organized as a collection of parent-child relationships. 
+
+When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
 ```
 <body>
   <p>Paragraph</p>
