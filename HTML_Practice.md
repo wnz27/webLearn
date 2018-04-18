@@ -254,7 +254,9 @@ The rest of this lesson will focus on how HTML is structured and some tools deve
 
 HTML documents are organized as a collection of parent-child relationships. 
 
-When an element is contained inside another element, it is considered the child of that element. The child element is said to be nested inside of the parent element.
+When an element is contained inside another element, it is considered the child of that element. 
+
+The child element is said to be nested inside of the parent element.
 ```
 <body>
   <p>Paragraph</p>
