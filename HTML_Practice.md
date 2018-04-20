@@ -263,6 +263,7 @@ The child element is said to be nested inside of the parent element.
 </body>
 ```
 In the example above, the <p> element is nested inside the <body> element.
+	
 The <p> element is considered a child of the <body> element, the parent.
 Since there can be multiple levels of nesting, this analogy can be extended to grandchildren, 
 great-grandchildren and beyond. Let's consider a more complicated example:
