@@ -278,6 +278,7 @@ great-grandchildren and beyond. Let's consider a more complicated example:
 </body>
 ```
 In this example, the `<body>` element is the parent of the` <div> `element. 
+
 Both the `<h1> and <p> `elements are children of the `<div> `element. 
 Because the `<h1> and <p>` elements are in the same level, they are considered siblings,
 and are both grandchildren of the <body> element.
