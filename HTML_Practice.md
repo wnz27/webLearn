@@ -283,6 +283,7 @@ Both the `<h1> and <p> `elements are children of the `<div> `element.
 
 Because the `<h1> and <p>` elements are in the same level, they are considered siblings,
 and are both grandchildren of the <body> element.
+	
 Understanding this hierarchy is important, because child elements can inherit attributes from their parent element.
 	
 Q:
