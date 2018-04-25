@@ -287,8 +287,10 @@ and are both grandchildren of the <body> element.
 Understanding this hierarchy is important, because child elements can inherit attributes from their parent element.
 	
 Q:
+
 1. Add the paragraph below as a child of the div element.
 `<p>This paragraph is a child of the div element</p>`
+
 2. Add the paragraph below as a child of the body element.
 `<p>This paragraph is a child of the body element</p>`
 ```
