@@ -319,7 +319,9 @@ This paragraph is a child of the div element
 As the code in an HTML file grows, it becomes increasingly difficult to keep track of how elements are related. 
 
 Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
+
 Both tools take advantage of the fact that the position of elements in a browser is independent of the amount of whitespace or indentation in the index.html file.
+
 For example, if you wanted to increase the space between two paragraphs on your web page, you would not be able to accomplish this by adding space between the paragraph elements in the index.html file. The browser ignores whitespace in HTML files when it renders a web page, so it can be used as a tool to make code easier to read and follow.
 What makes the example below difficult to read?
 
