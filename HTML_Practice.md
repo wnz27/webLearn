@@ -340,7 +340,9 @@ You have to read the entire line to know what elements are present. Compare the 
 <p>Paragraph 2</p>
 </body>
 ```
-This example is easier to read, because each element is on its own line. While the first example required you to read the entire line of code to identify the elements, this example makes it easy to identify the body tag and two paragraphs.
+This example is easier to read, because each element is on its own line. 
+
+While the first example required you to read the entire line of code to identify the elements, this example makes it easy to identify the body tag and two paragraphs.
 A browser renders both examples the same way:
 ```
 Paragraph 1
