@@ -342,13 +342,16 @@ You have to read the entire line to know what elements are present. Compare the 
 ```
 This example is easier to read, because each element is on its own line. 
 
-While the first example required you to read the entire line of code to identify the elements, this example makes it easy to identify the body tag and two paragraphs.
+While the first example required you to read the entire line of code to identify the elements, 
+this example makes it easy to identify the body tag and two paragraphs.
+
 A browser renders both examples the same way:
 ```
 Paragraph 1
 Paragraph 2
 ```
 In the next exercise you will learn how to use indentation to help visualize nested elements.
+
 Q：
 Use whitespace to make the code more readable by putting each element on its own line.
 ```
@@ -364,7 +367,10 @@ Use whitespace to make the code more readable by putting each element on its own
 ## Indentation
 
 The second tool web developers use to make the structure of code easier to read is indentation.
-The [World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
+
+The [World Wide Web Consortium](https://www.w3.org/Consortium/), or W3C, is responsible for maintaining the style standards of HTML. 
+
+At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code. Although your code will work without exactly two spaces, this standard is followed by the majority of professional web developers. Indentation is used to easily visualize which elements are nested within other elements.
 ```
 <body>
   <p>Paragraph 1</p>
