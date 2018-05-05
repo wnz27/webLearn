@@ -383,7 +383,9 @@ Indentation is used to easily visualize which elements are nested within other e
   </div>
 </body>
 ```
-In the example above, Paragraph 1 and the <div> tag are nested inside of the <body> tag, so they are indented two spaces. The Paragraph 2 element is nested inside of the <div> tag, so it is indented an additional two spaces.
+In the example above, Paragraph 1 and the <div> tag are nested inside of the <body> tag, so they are indented two spaces.
+
+The Paragraph 2 element is nested inside of the <div> tag, so it is indented an additional two spaces.
 The spaces are inserted using the spacebar on your keyboard.
 Q:
 Indent the code in index.html to match the W3C standards.
