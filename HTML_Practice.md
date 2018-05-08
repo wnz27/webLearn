@@ -388,6 +388,7 @@ In the example above, Paragraph 1 and the <div> tag are nested inside of the <bo
 The Paragraph 2 element is nested inside of the <div> tag, so it is indented an additional two spaces.
 	
 The spaces are inserted using the spacebar on your keyboard.
+
 Q:
 Indent the code in index.html to match the W3C standards.
 ```
