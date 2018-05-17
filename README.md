@@ -8,7 +8,7 @@ Learning about web development
   * [CSS_Practice](https://github.com/wnz27/webLearn/blob/master/CSS_Practice.md)
   * [HTML&CSS](https://github.com/wnz27/webLearn/blob/master/HTML&CSS_practice.md)
   * [JS_Note](https://github.com/wnz27/webLearn/blob/master/JS_Note.md)
-  * [Web_Note---网络基础知识笔记](https://github.com/wnz27/webLearn/blob/master/Web_note.md)
+  * [Web_Note---网络基础知识笔记](https://github.com/wnz27/webLearn/blob/master/Web_note.md)
 - **Some Skills of Essays**
   * [【译文】为何柯里化（curry）如此给力](https://github.com/ecmadao/Coding-Guide/blob/master/Notes/%E8%AF%91%E6%96%87/%E3%80%90%E8%AF%91%E6%96%87%E3%80%91%E4%B8%BA%E4%BD%95%E6%9F%AF%E9%87%8C%E5%8C%96%EF%BC%88curry%EF%BC%89%E5%A6%82%E6%AD%A4%E7%BB%99%E5%8A%9B.md)------------------------翻译：[ecmadao](https://github.com/ecmadao)
 
