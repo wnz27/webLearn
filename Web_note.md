@@ -1,5 +1,26 @@
 HTTPS能够加密信息，以免敏感信息被第三方获取。所以很多银行网站或电子邮箱等等安全级别较高的服务都会采用HTTPS协议。
 
+## 先解决名词解释 ssl、tls、key、crt、cer、x509
+
+### 1. SSL：安全套接字层 Secure Socket Layer的缩写
+
+### 2. TLS：传输层安全协议 Transport Layer Security的缩写  ，SSL的继任者
+
+### 3. KEY：通常指私钥,或者客户端生成的随机值。
+
+### 4. CSR：是Certificate Signing Request的缩写，即证书签名请求，生成证书时要把这个提交给权威的证书颁发机构
+
+### 5. CRT：即 certificate的缩写，即证书
+
+### 6. X.509：X.509是由国际电信联盟（ITU-T）制定的数字证书标准  
+对X.509证书来说，认证者总是CA或由CA指定的人，一份X.509证书是一些标准字段的集合，这些字段包含有关用户或设备及其相应公钥的信息   
+X.509的证书文件，一般以.crt结尾，根据该文件的内容编码格式，可以分为以下二种格式：  
+PEM - Privacy Enhanced Mail,打开看文本格式,以"-----BEGIN..."开头, "-----END..."结尾,内容是BASE64编码 ，Apache和*NIX服务器偏向于使用这种编码格式  
+DER - Distinguished Encoding Rules,打开看是二进制格式,不可读.Java和Windows服务器偏向于使用这种编码格式   
+
+### 7. OpenSSL：是一个安全套接字层密码库，囊括主要的密码算法、常用的密钥和证书封装管理功能及SSL协议，并提供丰富的应用程序供测试或其它目的使用
+
+
 ## HTTPS简介
 
 HTTPS其实是有两部分组成：HTTP + SSL / TLS，也就是在HTTP上又加了一层处理加密信息的模块。服务端和客户端的信息传输都会通过TLS进行加密，所以传输的数据都是加密后的数据。
